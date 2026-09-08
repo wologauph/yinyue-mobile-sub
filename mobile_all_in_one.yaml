@@ -6,73 +6,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9097
 proxies:
-- name: '[📱 手机宝可梦A] 剩余流量：58.76 GB'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2624d867-8cbf-4fab-8258-fec26b75e067
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 距离下次重置剩余：13 天'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2624d867-8cbf-4fab-8258-fec26b75e067
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 套餐到期：2026-09-16'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2624d867-8cbf-4fab-8258-fec26b75e067
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 建议：感到卡顿请切换到专线节点'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2624d867-8cbf-4fab-8258-fec26b75e067
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 放丢失官网:https://love.p6m6.com'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2624d867-8cbf-4fab-8258-fec26b75e067
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 放丢失官网2:https://love2.p6m6.com'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2624d867-8cbf-4fab-8258-fec26b75e067
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港01丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨直连'
   server: hkt03ddns.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -82,7 +16,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港02丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: hkt03ddns.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -92,7 +26,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港03丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 443
   udp: true
@@ -100,7 +34,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港04丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 443
   udp: true
@@ -108,7 +42,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港05原生丨移动直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
@@ -119,7 +53,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡01丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -129,7 +63,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡02丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -139,7 +73,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡03丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -149,7 +83,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡04丨直连'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -159,7 +93,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇸🇬 【亚洲】新加坡01丨Vless'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
@@ -170,7 +104,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇸🇬 【亚洲】新加坡02丨Vless'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
@@ -181,7 +115,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01丨Vless'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨Vless'
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
@@ -192,7 +126,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02丨Vless'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨Vless'
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
@@ -203,7 +137,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
   type: vless
   server: vless-jp04.waimaosass.icu
   port: 50131
@@ -214,7 +148,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
   type: vless
   server: vless-jp04.waimaosass.icu
   port: 50131
@@ -225,7 +159,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
   type: vless
   server: vless-alijp01.waimaosass.icu
   port: 50131
@@ -236,7 +170,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
   type: vless
   server: vless-alijp01.waimaosass.icu
   port: 50131
@@ -247,7 +181,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦A] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -257,7 +191,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -267,7 +201,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
   udp: true
@@ -275,7 +209,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
   udp: true
@@ -283,7 +217,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: 2624d867-8cbf-4fab-8258-fec26b75e067
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港01丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
@@ -291,7 +225,7 @@ proxies:
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇭🇰【亚洲】香港02丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
@@ -299,7 +233,7 @@ proxies:
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
@@ -307,7 +241,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
@@ -315,7 +249,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
@@ -323,7 +257,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
@@ -331,7 +265,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇺🇸【北美洲】美国01丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
@@ -339,7 +273,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦A] 🇺🇸【北美洲】美国02丨V6【1x】'
+- name: '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
@@ -347,73 +281,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 剩余流量：35.99 GB'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 距离下次重置剩余：13 天'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 套餐到期：2026-09-16'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 建议：感到卡顿请切换到专线节点'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 放丢失官网:https://love.p6m6.com'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 放丢失官网2:https://love2.p6m6.com'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港01丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨直连'
   server: hkt03ddns.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -423,7 +291,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港02丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: hkt03ddns.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -433,7 +301,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港03丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 443
   udp: true
@@ -441,7 +309,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港04丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 443
   udp: true
@@ -449,7 +317,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港05原生丨移动直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
@@ -460,7 +328,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡01丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -470,7 +338,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡02丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -480,7 +348,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡03丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -490,7 +358,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡04丨直连'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -500,7 +368,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇸🇬 【亚洲】新加坡01丨Vless'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
@@ -511,7 +379,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇸🇬 【亚洲】新加坡02丨Vless'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
@@ -522,7 +390,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本01丨Vless'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨Vless'
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
@@ -533,7 +401,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本02丨Vless'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨Vless'
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
@@ -544,7 +412,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
   type: vless
   server: vless-jp04.waimaosass.icu
   port: 50131
@@ -555,7 +423,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
   type: vless
   server: vless-jp04.waimaosass.icu
   port: 50131
@@ -566,7 +434,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
   type: vless
   server: vless-alijp01.waimaosass.icu
   port: 50131
@@ -577,7 +445,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
   type: vless
   server: vless-alijp01.waimaosass.icu
   port: 50131
@@ -588,7 +456,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦B] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -598,7 +466,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -608,7 +476,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
   udp: true
@@ -616,7 +484,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
   udp: true
@@ -624,7 +492,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: da811e0e-1dfa-4a53-af33-3eb45aec3ffb
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港01丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
@@ -632,7 +500,7 @@ proxies:
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇭🇰【亚洲】香港02丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
@@ -640,7 +508,7 @@ proxies:
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
@@ -648,7 +516,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
@@ -656,7 +524,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本01丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
@@ -664,7 +532,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇯🇵【亚洲】日本02丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
@@ -672,7 +540,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇺🇸【北美洲】美国01丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
@@ -680,7 +548,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦B] 🇺🇸【北美洲】美国02丨V6【1x】'
+- name: '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
@@ -688,73 +556,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 剩余流量：49.56 GB'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 距离下次重置剩余：13 天'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 套餐到期：2026-09-16'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 建议：感到卡顿请切换到专线节点'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 放丢失官网:https://love.p6m6.com'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 放丢失官网2:https://love2.p6m6.com'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港01丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨直连'
   server: hkt03ddns.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -764,7 +566,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港02丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: hkt03ddns.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -774,7 +576,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港03丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 443
   udp: true
@@ -782,7 +584,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港04丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 443
   udp: true
@@ -790,7 +592,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港05原生丨移动直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
@@ -801,7 +603,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇸🇬【亚洲】新加坡01丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -811,7 +613,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇸🇬【亚洲】新加坡02丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -821,7 +623,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇸🇬【亚洲】新加坡03丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -831,7 +633,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇸🇬【亚洲】新加坡04丨直连'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -841,7 +643,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇸🇬 【亚洲】新加坡01丨Vless'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
@@ -852,7 +654,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇸🇬 【亚洲】新加坡02丨Vless'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
@@ -863,7 +665,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本01丨Vless'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨Vless'
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
@@ -874,7 +676,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本02丨Vless'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨Vless'
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
@@ -885,7 +687,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
   type: vless
   server: vless-jp04.waimaosass.icu
   port: 50131
@@ -896,7 +698,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
   type: vless
   server: vless-jp04.waimaosass.icu
   port: 50131
@@ -907,7 +709,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
   type: vless
   server: vless-alijp01.waimaosass.icu
   port: 50131
@@ -918,7 +720,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
   type: vless
   server: vless-alijp01.waimaosass.icu
   port: 50131
@@ -929,7 +731,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: d1.awsstatic.com
-- name: '[📱 手机宝可梦C] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -939,7 +741,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
   ports: 20000-50000
@@ -949,7 +751,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
   udp: true
@@ -957,7 +759,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
   udp: true
@@ -965,7 +767,7 @@ proxies:
   sni: bing.com
   type: hysteria2
   password: d62009f1-7a87-4b35-a942-ef2c9408a1ab
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港01丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
@@ -973,7 +775,7 @@ proxies:
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇭🇰【亚洲】香港02丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
@@ -981,7 +783,7 @@ proxies:
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
@@ -989,7 +791,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
@@ -997,7 +799,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本01丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
@@ -1005,7 +807,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇯🇵【亚洲】日本02丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
@@ -1013,7 +815,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇺🇸【北美洲】美国01丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
@@ -1021,7 +823,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[📱 手机宝可梦C] 🇺🇸【北美洲】美国02丨V6【1x】'
+- name: '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
@@ -1029,7 +831,7 @@ proxies:
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本1-Ver.7'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本1-Ver.7'
   server: lilq2vc-g06.jp01-nn-vm0.entry.fr0528.art
   port: 21586
   type: vmess
@@ -1039,7 +841,7 @@ proxies:
   tls: true
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本2-Ver.8'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本2-Ver.8'
   server: 9kb82vc-g06.jp02-e3-vm0.entry.fr0528.art
   port: 11778
   type: vmess
@@ -1049,7 +851,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本3-Ver.7'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本3-Ver.7'
   server: 2ilq2em-g06.jp03-j7-vm0.entry.fr0528.art
   port: 21586
   type: vmess
@@ -1059,7 +861,7 @@ proxies:
   tls: true
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本4-Ver.8'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本4-Ver.8'
   server: lirtaec-g06.jp04-1d-vm0.entry.fr0528.art
   port: 449
   type: vmess
@@ -1069,7 +871,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本5-Ver.9'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本5-Ver.9'
   server: libt2ec-g06.jp05-h6-vm0.entry.fr0528.art
   port: 46487
   type: vmess
@@ -1079,7 +881,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本6-Ver.8'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本6-Ver.8'
   server: 23btav1-g06.jp06-jz-vm0.entry.fr0528.art
   port: 28788
   type: vmess
@@ -1089,7 +891,7 @@ proxies:
   tls: true
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底1] 🇯🇵 免费-日本7-Ver.2'
+- name: '[🛡️ iKuuu·1号] 🇯🇵 免费-日本7-Ver.2'
   server: 23982vm-g06.jp07-sh-vm0.entry.fr0528.art
   port: 28788
   type: vmess
@@ -1099,7 +901,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本1-Ver.7'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本1-Ver.7'
   server: hv898vo-g01.jp01-nn-vm0.entry.fr0528.art
   port: 21581
   type: vmess
@@ -1109,7 +911,7 @@ proxies:
   tls: true
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本2-Ver.8'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本2-Ver.8'
   server: hoedtbp-g01.jp02-e3-vm0.entry.fr0528.art
   port: 11773
   type: vmess
@@ -1119,7 +921,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本3-Ver.7'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本3-Ver.7'
   server: a189tbp-g01.jp03-j7-vm0.entry.fr0528.art
   port: 21581
   type: vmess
@@ -1129,7 +931,7 @@ proxies:
   tls: true
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本4-Ver.8'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本4-Ver.8'
   server: a08b1eo-g01.jp04-1d-vm0.entry.fr0528.art
   port: 444
   type: vmess
@@ -1139,7 +941,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本5-Ver.9'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本5-Ver.9'
   server: o1ndtep-g01.jp05-h6-vm0.entry.fr0528.art
   port: 46482
   type: vmess
@@ -1149,7 +951,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本6-Ver.8'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本6-Ver.8'
   server: ov8dhvp-g01.jp06-jz-vm0.entry.fr0528.art
   port: 28783
   type: vmess
@@ -1159,7 +961,7 @@ proxies:
   tls: true
   skip-cert-verify: false
   udp: true
-- name: '[🛡️ iKuuu保底2] 🇯🇵 免费-日本7-Ver.2'
+- name: '[🛡️ iKuuu·2号] 🇯🇵 免费-日本7-Ver.2'
   server: o0e9hjp-g01.jp07-sh-vm0.entry.fr0528.art
   port: 28783
   type: vmess
@@ -1169,53 +971,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: '[🏝️ 布吉岛1号] 充值后可解锁更多节点哦🍭'
-  type: vless
-  server: uk-001.xiaoxiaobujidao.xyz
-  port: 19443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 66372b2e-5f21-4580-98a9-1b804abd0809
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: uk-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: uk-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛1号] 😈---氪金分割线---｜0.10元/G｜Reality｜'
-  type: vless
-  server: uk-001.xiaoxiaobujidao.xyz
-  port: 19443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 66372b2e-5f21-4580-98a9-1b804abd0809
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: uk-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: uk-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛1号] 😈英格兰002｜0.09元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
   port: 19443
@@ -1224,7 +980,7 @@ proxies:
   password: 66372b2e-5f21-4580-98a9-1b804abd0809
   sni: uk-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛1号] 😈英格兰003｜0.08元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
@@ -1239,7 +995,7 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛1号] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
@@ -1254,7 +1010,7 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛1号] 💛加拿大001｜0.07元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1269,7 +1025,7 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛1号] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1284,7 +1040,7 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛1号] 💛加拿大002｜0.06元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
   type: hysteria2
   server: ca-002.xiaoxiaobujidao.xyz
   port: 8443
@@ -1293,7 +1049,7 @@ proxies:
   password: 66372b2e-5f21-4580-98a9-1b804abd0809
   sni: ca-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛1号] 💛加拿大003｜0.05元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
   type: vless
   server: ca-003.xiaoxiaobujidao.xyz
   port: 8443
@@ -1316,7 +1072,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛1号] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
   type: hysteria2
   server: fr-002.xiaoxiaobujidao.xyz
   port: 443
@@ -1325,7 +1081,7 @@ proxies:
   password: 66372b2e-5f21-4580-98a9-1b804abd0809
   sni: fr-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛1号] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   type: vless
   server: fr-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1348,7 +1104,7 @@ proxies:
   reality-opts:
     public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
     short-id: ''
-- name: '[🏝️ 布吉岛1号] 🖤东京京X07｜0.02元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
   type: vless
   server: tk-X07.xiaoxiaobujidao.xyz
   port: 12443
@@ -1371,7 +1127,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛1号] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·1号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
   type: vless
   server: tk-X06.xiaoxiaobujidao.xyz
   port: 18443
@@ -1394,122 +1150,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛1号] 群 bujidaoChat.t.me'
-  type: vless
-  server: fr-001.xiaoxiaobujidao.xyz
-  port: 443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 66372b2e-5f21-4580-98a9-1b804abd0809
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: fr-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: fr-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛1号] 最新官网 bujidao.org'
-  type: vless
-  server: tk-X07.xiaoxiaobujidao.xyz
-  port: 12443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 66372b2e-5f21-4580-98a9-1b804abd0809
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: tk-X07.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: tk-X07.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-- name: '[🏝️ 布吉岛1号] 失联 bujidao@duck.com 邮件至'
-  type: vless
-  server: tk-X06.xiaoxiaobujidao.xyz
-  port: 18443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 66372b2e-5f21-4580-98a9-1b804abd0809
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubu
-    headers:
-      Host: tk-X06.xiaoxiaobujidao.xyz
-  ws-path: /bubu
-  ws-headers:
-    Host: tk-X06.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-- name: '[🏝️ 布吉岛2号] 充值后可解锁更多节点哦🍭'
-  type: vless
-  server: uk-001.xiaoxiaobujidao.xyz
-  port: 19443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: bdb88876-cad0-4dd6-a3bf-23706e37849b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: uk-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: uk-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛2号] 😈---氪金分割线---｜0.10元/G｜Reality｜'
-  type: vless
-  server: uk-001.xiaoxiaobujidao.xyz
-  port: 19443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: bdb88876-cad0-4dd6-a3bf-23706e37849b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: uk-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: uk-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛2号] 😈英格兰002｜0.09元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
   port: 19443
@@ -1518,7 +1159,7 @@ proxies:
   password: bdb88876-cad0-4dd6-a3bf-23706e37849b
   sni: uk-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛2号] 😈英格兰003｜0.08元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
@@ -1533,7 +1174,7 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛2号] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
@@ -1548,7 +1189,7 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛2号] 💛加拿大001｜0.07元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1563,7 +1204,7 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛2号] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1578,7 +1219,7 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛2号] 💛加拿大002｜0.06元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
   type: hysteria2
   server: ca-002.xiaoxiaobujidao.xyz
   port: 8443
@@ -1587,7 +1228,7 @@ proxies:
   password: bdb88876-cad0-4dd6-a3bf-23706e37849b
   sni: ca-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛2号] 💛加拿大003｜0.05元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
   type: vless
   server: ca-003.xiaoxiaobujidao.xyz
   port: 8443
@@ -1610,7 +1251,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛2号] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
   type: hysteria2
   server: fr-002.xiaoxiaobujidao.xyz
   port: 443
@@ -1619,7 +1260,7 @@ proxies:
   password: bdb88876-cad0-4dd6-a3bf-23706e37849b
   sni: fr-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛2号] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   type: vless
   server: fr-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1642,7 +1283,7 @@ proxies:
   reality-opts:
     public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
     short-id: ''
-- name: '[🏝️ 布吉岛2号] 🖤东京京X07｜0.02元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
   type: vless
   server: tk-X07.xiaoxiaobujidao.xyz
   port: 12443
@@ -1665,7 +1306,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛2号] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·2号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
   type: vless
   server: tk-X06.xiaoxiaobujidao.xyz
   port: 18443
@@ -1688,122 +1329,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛2号] 群 bujidaoChat.t.me'
-  type: vless
-  server: fr-001.xiaoxiaobujidao.xyz
-  port: 443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: bdb88876-cad0-4dd6-a3bf-23706e37849b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: fr-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: fr-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛2号] 最新官网 bujidao.org'
-  type: vless
-  server: tk-X07.xiaoxiaobujidao.xyz
-  port: 12443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: bdb88876-cad0-4dd6-a3bf-23706e37849b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: tk-X07.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: tk-X07.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-- name: '[🏝️ 布吉岛2号] 失联 bujidao@duck.com 邮件至'
-  type: vless
-  server: tk-X06.xiaoxiaobujidao.xyz
-  port: 18443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: bdb88876-cad0-4dd6-a3bf-23706e37849b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubu
-    headers:
-      Host: tk-X06.xiaoxiaobujidao.xyz
-  ws-path: /bubu
-  ws-headers:
-    Host: tk-X06.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-- name: '[🏝️ 布吉岛3号] 充值后可解锁更多节点哦🍭'
-  type: vless
-  server: uk-001.xiaoxiaobujidao.xyz
-  port: 19443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 77410f06-5ab7-4c84-9813-0c77bb20a17d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: uk-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: uk-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛3号] 😈---氪金分割线---｜0.10元/G｜Reality｜'
-  type: vless
-  server: uk-001.xiaoxiaobujidao.xyz
-  port: 19443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 77410f06-5ab7-4c84-9813-0c77bb20a17d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: uk-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: uk-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛3号] 😈英格兰002｜0.09元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
   port: 19443
@@ -1812,7 +1338,7 @@ proxies:
   password: 77410f06-5ab7-4c84-9813-0c77bb20a17d
   sni: uk-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛3号] 😈英格兰003｜0.08元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
@@ -1827,7 +1353,7 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛3号] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
@@ -1842,7 +1368,7 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛3号] 💛加拿大001｜0.07元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1857,7 +1383,7 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛3号] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1872,7 +1398,7 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛3号] 💛加拿大002｜0.06元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
   type: hysteria2
   server: ca-002.xiaoxiaobujidao.xyz
   port: 8443
@@ -1881,7 +1407,7 @@ proxies:
   password: 77410f06-5ab7-4c84-9813-0c77bb20a17d
   sni: ca-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛3号] 💛加拿大003｜0.05元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
   type: vless
   server: ca-003.xiaoxiaobujidao.xyz
   port: 8443
@@ -1904,7 +1430,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛3号] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
   type: hysteria2
   server: fr-002.xiaoxiaobujidao.xyz
   port: 443
@@ -1913,7 +1439,7 @@ proxies:
   password: 77410f06-5ab7-4c84-9813-0c77bb20a17d
   sni: fr-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛3号] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   type: vless
   server: fr-001.xiaoxiaobujidao.xyz
   port: 443
@@ -1936,7 +1462,7 @@ proxies:
   reality-opts:
     public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
     short-id: ''
-- name: '[🏝️ 布吉岛3号] 🖤东京京X07｜0.02元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
   type: vless
   server: tk-X07.xiaoxiaobujidao.xyz
   port: 12443
@@ -1959,7 +1485,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛3号] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: '[🏝️ 布吉岛·3号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
   type: vless
   server: tk-X06.xiaoxiaobujidao.xyz
   port: 18443
@@ -1982,76 +1508,7 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🏝️ 布吉岛3号] 群 bujidaoChat.t.me'
-  type: vless
-  server: fr-001.xiaoxiaobujidao.xyz
-  port: 443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 77410f06-5ab7-4c84-9813-0c77bb20a17d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: fr-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: fr-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-- name: '[🏝️ 布吉岛3号] 最新官网 bujidao.org'
-  type: vless
-  server: tk-X07.xiaoxiaobujidao.xyz
-  port: 12443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 77410f06-5ab7-4c84-9813-0c77bb20a17d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: tk-X07.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: tk-X07.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-- name: '[🏝️ 布吉岛3号] 失联 bujidao@duck.com 邮件至'
-  type: vless
-  server: tk-X06.xiaoxiaobujidao.xyz
-  port: 18443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: 77410f06-5ab7-4c84-9813-0c77bb20a17d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubu
-    headers:
-      Host: tk-X06.xiaoxiaobujidao.xyz
-  ws-path: /bubu
-  ws-headers:
-    Host: tk-X06.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-- name: '[🚀 自由航线1000G] 剩余流量：999.93 GB'
+- name: '[🚀 自由航线·1000G] 日本高速 12| BGP'
   type: vless
   server: uh-jp01.ziyoufly.xyz
   port: 55555
@@ -2065,49 +1522,7 @@ proxies:
   reality-opts:
     public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
     short-id: af317506
-- name: '[🚀 自由航线1000G] 距离下次重置剩余：29 天'
-  type: vless
-  server: uh-jp01.ziyoufly.xyz
-  port: 55555
-  uuid: 27340cdc-926c-413c-9389-804334e96552
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: safari
-  servername: s0.awsstatic.com
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-- name: '[🚀 自由航线1000G] 套餐到期：2026-10-02'
-  type: vless
-  server: uh-jp01.ziyoufly.xyz
-  port: 55555
-  uuid: 27340cdc-926c-413c-9389-804334e96552
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: safari
-  servername: s0.awsstatic.com
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-- name: '[🚀 自由航线1000G] 日本高速 12| BGP'
-  type: vless
-  server: uh-jp01.ziyoufly.xyz
-  port: 55555
-  uuid: 27340cdc-926c-413c-9389-804334e96552
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: safari
-  servername: s0.awsstatic.com
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-- name: '[🚀 自由航线1000G] 日本高速 11| CTCM'
+- name: '[🚀 自由航线·1000G] 日本高速 11| CTCM'
   type: vless
   server: cfyes.ziyoufly.xyz
   port: 443
@@ -2122,7 +1537,7 @@ proxies:
     path: /ziyou
     headers:
       Host: cf-uh-jp01-2.23523463.xyz
-- name: '[🚀 自由航线1000G] 新加坡高速 06| BGP'
+- name: '[🚀 自由航线·1000G] 新加坡高速 06| BGP'
   type: vless
   server: uh-sg01.ziyoufly.xyz
   port: 55555
@@ -2136,7 +1551,7 @@ proxies:
   reality-opts:
     public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
     short-id: af317506
-- name: '[🚀 自由航线1000G] 新加坡高速 05| CTCM'
+- name: '[🚀 自由航线·1000G] 新加坡高速 05| CTCM'
   type: vless
   server: cfyes.ziyoufly.xyz
   port: 443
@@ -2151,7 +1566,7 @@ proxies:
     path: /ziyou
     headers:
       Host: cf-uh-sg01-2.23523463.xyz
-- name: '[🚀 自由航线1000G] 美国高速 04| BGP'
+- name: '[🚀 自由航线·1000G] 美国高速 04| BGP'
   type: vless
   server: uh-us01.ziyoufly.xyz
   port: 55555
@@ -2165,7 +1580,7 @@ proxies:
   reality-opts:
     public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
     short-id: af317506
-- name: '[🚀 自由航线1000G] 美国高速 03| CTCM'
+- name: '[🚀 自由航线·1000G] 美国高速 03| CTCM'
   type: vless
   server: cfyes.ziyoufly.xyz
   port: 443
@@ -2180,42 +1595,14 @@ proxies:
     path: /ziyou
     headers:
       Host: cf-uh-us01-2.23523463.xyz
-- name: '[🐸 蛙爪云1号] 剩余流量：100 GB'
+- name: '[🐸 蛙爪云·1号] ---连不上的时候请更新订阅---'
   type: ss
   server: 1.1.1.1
   port: 443
   cipher: chacha20-ietf-poly1305
   password: c7e721f3-4fb4-4b83-9f3b-6b377caaadee
   udp: true
-- name: '[🐸 蛙爪云1号] 距离下次重置剩余：29 天'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c7e721f3-4fb4-4b83-9f3b-6b377caaadee
-  udp: true
-- name: '[🐸 蛙爪云1号] 套餐到期：2026-10-02'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c7e721f3-4fb4-4b83-9f3b-6b377caaadee
-  udp: true
-- name: '[🐸 蛙爪云1号] ---连不上的时候请更新订阅---'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c7e721f3-4fb4-4b83-9f3b-6b377caaadee
-  udp: true
-- name: '[🐸 蛙爪云1号] 官网：my.wazhua.org'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: c7e721f3-4fb4-4b83-9f3b-6b377caaadee
-  udp: true
-- name: '[🐸 蛙爪云1号] 🇭🇰香港-1'
+- name: '[🐸 蛙爪云·1号] 🇭🇰香港-1'
   type: vless
   server: cfb.wazhua.org
   port: 443
@@ -2234,7 +1621,7 @@ proxies:
     path: /
     headers:
       Host: hka.456776.xyz
-- name: '[🐸 蛙爪云1号] 🇭🇰香港-2'
+- name: '[🐸 蛙爪云·1号] 🇭🇰香港-2'
   type: vless
   server: cfb.wazhua.org
   port: 2052
@@ -2245,7 +1632,7 @@ proxies:
     path: /
     headers:
       Host: 2112185428.hkb.online.video.downloader.ppdpp.bond
-- name: '[🐸 蛙爪云1号] 🇺🇸美国-1'
+- name: '[🐸 蛙爪云·1号] 🇺🇸美国-1'
   type: vless
   server: cfa.wazhua.org
   port: 443
@@ -2264,7 +1651,7 @@ proxies:
     path: /
     headers:
       Host: usa.456776.xyz
-- name: '[🐸 蛙爪云1号] 🇺🇸美国-2'
+- name: '[🐸 蛙爪云·1号] 🇺🇸美国-2'
   type: vless
   server: cfb.wazhua.org
   port: 2052
@@ -2275,7 +1662,7 @@ proxies:
     path: /
     headers:
       Host: 2112185428.usb.online.video.downloader.ppdpp.bond
-- name: '[🐸 蛙爪云1号] 🇬🇧英国-1'
+- name: '[🐸 蛙爪云·1号] 🇬🇧英国-1'
   type: vless
   server: 162.159.160.2
   port: 443
@@ -2294,7 +1681,7 @@ proxies:
     path: /
     headers:
       Host: uka.456776.xyz
-- name: '[🐸 蛙爪云1号] 🇬🇧英国-2'
+- name: '[🐸 蛙爪云·1号] 🇬🇧英国-2'
   type: vless
   server: cfb.wazhua.org
   port: 2052
@@ -2305,42 +1692,14 @@ proxies:
     path: /
     headers:
       Host: 2112185428.uka.online.video.downloader.ppdpp.bond
-- name: '[🐸 蛙爪云2号] 剩余流量：99.47 GB'
+- name: '[🐸 蛙爪云·2号] ---连不上的时候请更新订阅---'
   type: ss
   server: 1.1.1.1
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 149a4378-c449-4e20-bbac-3549cbd28296
   udp: true
-- name: '[🐸 蛙爪云2号] 距离下次重置剩余：29 天'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 149a4378-c449-4e20-bbac-3549cbd28296
-  udp: true
-- name: '[🐸 蛙爪云2号] 套餐到期：2026-10-02'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 149a4378-c449-4e20-bbac-3549cbd28296
-  udp: true
-- name: '[🐸 蛙爪云2号] ---连不上的时候请更新订阅---'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 149a4378-c449-4e20-bbac-3549cbd28296
-  udp: true
-- name: '[🐸 蛙爪云2号] 官网：my.wazhua.org'
-  type: ss
-  server: 1.1.1.1
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 149a4378-c449-4e20-bbac-3549cbd28296
-  udp: true
-- name: '[🐸 蛙爪云2号] 🇭🇰香港-1'
+- name: '[🐸 蛙爪云·2号] 🇭🇰香港-1'
   type: vless
   server: cfb.wazhua.org
   port: 443
@@ -2359,7 +1718,7 @@ proxies:
     path: /
     headers:
       Host: hka.456776.xyz
-- name: '[🐸 蛙爪云2号] 🇭🇰香港-2'
+- name: '[🐸 蛙爪云·2号] 🇭🇰香港-2'
   type: vless
   server: cfb.wazhua.org
   port: 2052
@@ -2370,7 +1729,7 @@ proxies:
     path: /
     headers:
       Host: 2112185428.hkb.online.video.downloader.ppdpp.bond
-- name: '[🐸 蛙爪云2号] 🇺🇸美国-1'
+- name: '[🐸 蛙爪云·2号] 🇺🇸美国-1'
   type: vless
   server: cfa.wazhua.org
   port: 443
@@ -2389,7 +1748,7 @@ proxies:
     path: /
     headers:
       Host: usa.456776.xyz
-- name: '[🐸 蛙爪云2号] 🇺🇸美国-2'
+- name: '[🐸 蛙爪云·2号] 🇺🇸美国-2'
   type: vless
   server: cfb.wazhua.org
   port: 2052
@@ -2400,7 +1759,7 @@ proxies:
     path: /
     headers:
       Host: 2112185428.usb.online.video.downloader.ppdpp.bond
-- name: '[🐸 蛙爪云2号] 🇬🇧英国-1'
+- name: '[🐸 蛙爪云·2号] 🇬🇧英国-1'
   type: vless
   server: 162.159.160.2
   port: 443
@@ -2419,7 +1778,7 @@ proxies:
     path: /
     headers:
       Host: uka.456776.xyz
-- name: '[🐸 蛙爪云2号] 🇬🇧英国-2'
+- name: '[🐸 蛙爪云·2号] 🇬🇧英国-2'
   type: vless
   server: cfb.wazhua.org
   port: 2052
@@ -2430,7 +1789,7 @@ proxies:
     path: /
     headers:
       Host: 2112185428.uka.online.video.downloader.ppdpp.bond
-- name: '[⚓ 旧港150G] 502348872;官网:https://www.旧巷.com'
+- name: '[⚓ 旧港·150G] 香港1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64011
@@ -2442,50 +1801,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 到期:2026-10-02;剩余:147.94 GB'
-  type: anytls
-  server: jjjjp.358.onl
-  port: 64011
-  password: e40eec53-3f28-4537-b4b5-18bfc5a19aa3
-  client-fingerprint: chrome
-  udp: true
-  alpn:
-  - h2
-  - http/1.1
-  sni: 9527app.site
-  skip-cert-verify: true
-- name: '[⚓ 旧港150G] 距离下次重置剩余:29 天'
-  type: anytls
-  server: jjjjp.358.onl
-  port: 64011
-  password: e40eec53-3f28-4537-b4b5-18bfc5a19aa3
-  client-fingerprint: chrome
-  udp: true
-  alpn:
-  - h2
-  - http/1.1
-  sni: 9527app.site
-  skip-cert-verify: true
-- name: '[⚓ 旧港150G] 香港1|AnyTLS[1x]'
-  type: anytls
-  server: jjjjp.358.onl
-  port: 64011
-  password: e40eec53-3f28-4537-b4b5-18bfc5a19aa3
-  client-fingerprint: chrome
-  udp: true
-  alpn:
-  - h2
-  - http/1.1
-  sni: 9527app.site
-  skip-cert-verify: true
-- name: '[⚓ 旧港150G] 香港1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 香港1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65011
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 香港2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 香港2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64012
@@ -2497,14 +1820,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 香港2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 香港2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65012
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 香港3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 香港3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64011
@@ -2516,14 +1839,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 香港3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 香港3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65011
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 香港4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 香港4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64012
@@ -2535,14 +1858,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 香港4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 香港4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65012
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 新加坡1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 新加坡1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64021
@@ -2554,14 +1877,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 新加坡1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 新加坡1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65021
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 新加坡2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 新加坡2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64022
@@ -2573,14 +1896,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 新加坡2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 新加坡2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65022
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 新加坡3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 新加坡3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64021
@@ -2592,14 +1915,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 新加坡3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 新加坡3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65021
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 新加坡4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 新加坡4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64022
@@ -2611,14 +1934,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 新加坡4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 新加坡4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65022
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 日本1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 日本1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64031
@@ -2630,14 +1953,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 日本1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 日本1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65031
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 日本2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 日本2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64032
@@ -2649,14 +1972,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 日本2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 日本2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65032
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 日本3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 日本3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64031
@@ -2668,14 +1991,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 日本3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 日本3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65031
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 日本4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 日本4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64032
@@ -2687,14 +2010,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 日本4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 日本4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65032
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 美国1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 美国1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64041
@@ -2706,14 +2029,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 美国1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 美国1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65041
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 美国2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 美国2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64042
@@ -2725,14 +2048,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 美国2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 美国2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65042
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 美国3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 美国3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64041
@@ -2744,14 +2067,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 美国3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 美国3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65041
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 美国4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 美国4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64042
@@ -2763,14 +2086,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 美国4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 美国4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65042
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 韩国1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 韩国1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64051
@@ -2782,14 +2105,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 韩国1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 韩国1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65051
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 韩国2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 韩国2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64052
@@ -2801,14 +2124,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 韩国2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 韩国2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65052
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 韩国3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 韩国3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64051
@@ -2820,14 +2143,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 韩国3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 韩国3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65051
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 韩国4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 韩国4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64052
@@ -2839,14 +2162,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 韩国4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 韩国4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65052
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 越南1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 越南1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64061
@@ -2858,14 +2181,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 越南1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 越南1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65061
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 越南2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 越南2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64062
@@ -2877,14 +2200,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 越南2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 越南2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65062
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 越南3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 越南3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64061
@@ -2896,14 +2219,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 越南3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 越南3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65061
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 越南4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 越南4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64062
@@ -2915,14 +2238,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 越南4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 越南4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65062
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 土耳其1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 土耳其1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64071
@@ -2934,14 +2257,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 土耳其1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 土耳其1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65071
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 土耳其2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 土耳其2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64072
@@ -2953,14 +2276,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 土耳其2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 土耳其2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65072
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 土耳其3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 土耳其3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64071
@@ -2972,14 +2295,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 土耳其3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 土耳其3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65071
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 土耳其4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 土耳其4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64072
@@ -2991,14 +2314,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 土耳其4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 土耳其4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65072
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 法国1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 法国1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64081
@@ -3010,14 +2333,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 法国1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 法国1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65081
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 法国2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 法国2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64082
@@ -3029,14 +2352,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 法国2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 法国2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65082
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 法国3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 法国3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64081
@@ -3048,14 +2371,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 法国3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 法国3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65081
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 法国4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 法国4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64082
@@ -3067,14 +2390,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 法国4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 法国4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65082
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 德国1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 德国1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64091
@@ -3086,14 +2409,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 德国1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 德国1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65091
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 德国2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 德国2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64092
@@ -3105,14 +2428,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 德国2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 德国2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65092
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 德国3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 德国3|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64091
@@ -3124,14 +2447,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 德国3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 德国3|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65091
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 德国4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 德国4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64092
@@ -3143,14 +2466,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 德国4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 德国4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65092
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 英国1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 英国1|AnyTLS[1x]'
   type: anytls
   server: jjjjp.358.onl
   port: 64101
@@ -3162,14 +2485,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 英国1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 英国1|Shadowsocks[1x]'
   type: ss
   server: jjjjp.358.onl
   port: 65101
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 英国2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 英国2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64102
@@ -3181,14 +2504,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 英国2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 英国2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65102
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 英国3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 英国3|AnyTLS[1x]'
   type: anytls
   server: r.358.onl
   port: 64101
@@ -3200,14 +2523,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 英国3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 英国3|Shadowsocks[1x]'
   type: ss
   server: r.358.onl
   port: 65101
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 英国4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 英国4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64102
@@ -3219,14 +2542,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 英国4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 英国4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65102
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 泰国1|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 泰国1|AnyTLS[1x]'
   type: anytls
   server: r.358.onl
   port: 64111
@@ -3238,14 +2561,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 泰国1|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 泰国1|Shadowsocks[1x]'
   type: ss
   server: r.358.onl
   port: 65111
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 泰国2|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 泰国2|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64112
@@ -3257,14 +2580,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 泰国2|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 泰国2|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65112
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 泰国3|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 泰国3|AnyTLS[1x]'
   type: anytls
   server: r.358.onl
   port: 64111
@@ -3276,14 +2599,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 泰国3|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 泰国3|Shadowsocks[1x]'
   type: ss
   server: r.358.onl
   port: 65111
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚓ 旧港150G] 泰国4|AnyTLS[1x]'
+- name: '[⚓ 旧港·150G] 泰国4|AnyTLS[1x]'
   type: anytls
   server: cccct.284.pics
   port: 64112
@@ -3295,14 +2618,14 @@ proxies:
   - http/1.1
   sni: 9527app.site
   skip-cert-verify: true
-- name: '[⚓ 旧港150G] 泰国4|Shadowsocks[1x]'
+- name: '[⚓ 旧港·150G] 泰国4|Shadowsocks[1x]'
   type: ss
   server: cccct.284.pics
   port: 65112
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:ZTQwZWVjNTMtM2YyOC00NTM3LWI0YjUtMThiZmM1YTE=
   udp: true
-- name: '[⚖️ LawTools30G] 剩余流量：30 GB'
+- name: '[⚖️ LawTools·30G] 🇭🇰 网站 : lotus.asn.tn'
   type: vless
   server: x7m3q9v5r2k8t1n6w4p7y3c9z5h2j8hk.usuxlink.casa
   port: 25839
@@ -3318,39 +2641,7 @@ proxies:
     public-key: chWS2m_MgjdaFn4fDFjdY5yjDb0upidE6239b6dK2UM
     short-id: eed23297fc484b4b
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 套餐到期：长期有效'
-  type: vless
-  server: x7m3q9v5r2k8t1n6w4p7y3c9z5h2j8hk.usuxlink.casa
-  port: 25839
-  uuid: 99acf9a4-9386-4ebb-a914-5029e80767c0
-  alterId: 0
-  cipher: auto
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: idc.sg.usuxcloud.com
-  reality-opts:
-    public-key: chWS2m_MgjdaFn4fDFjdY5yjDb0upidE6239b6dK2UM
-    short-id: eed23297fc484b4b
-  client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇭🇰 网站 : lotus.asn.tn'
-  type: vless
-  server: x7m3q9v5r2k8t1n6w4p7y3c9z5h2j8hk.usuxlink.casa
-  port: 25839
-  uuid: 99acf9a4-9386-4ebb-a914-5029e80767c0
-  alterId: 0
-  cipher: auto
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: idc.sg.usuxcloud.com
-  reality-opts:
-    public-key: chWS2m_MgjdaFn4fDFjdY5yjDb0upidE6239b6dK2UM
-    short-id: eed23297fc484b4b
-  client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇭🇰 HK 香港 A | x1.5'
+- name: '[⚖️ LawTools·30G] 🇭🇰 HK 香港 A | x1.5'
   type: vless
   server: i9q4m7x2v8r5k1t6n3w9p4y7c2z8h5hk.usuxlink.casa
   port: 53868
@@ -3366,7 +2657,7 @@ proxies:
     public-key: sLCMxextREI7UMI8fpg8ruXjFQ1cWRBqn7G473X_1Vw
     short-id: 079695efafd998
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇭🇰 HK 香港 B | x1.3'
+- name: '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
   type: vless
   server: u5r8x3m7q1v9k4t6n2w5p10t3c7z1hk.usuxlink.casa
   port: 51831
@@ -3382,7 +2673,7 @@ proxies:
     public-key: IDMucIxROJEFk89LIUbSzaotOk_qQ0DjrsmwmWeYgwY
     short-id: 5e911305286bf72e
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇭🇰 HK 香港 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
   type: vless
   server: v2x7m5q9v3r8k1t4n6w2p7y5c9z3h8hk.usuxlink.casa
   port: 43221
@@ -3398,7 +2689,7 @@ proxies:
     public-key: AUifKItGg-0GrgsOP4xfkjpFKTHPcMAKbKI8Oi2NhWU
     short-id: a3a0ab34158320
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇭🇰 HK 香港 D | x1'
+- name: '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
   type: vless
   server: h7m3x9q5v2r8k1t6n4w7p3y9c2z5j8hk.usuxlink.casa
   port: 31217
@@ -3414,7 +2705,7 @@ proxies:
     public-key: 7tJ9OHZes-TpBPFA7gqEvbWegTlXUZCmkFYRdyP7uDg
     short-id: a1f860441490
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇼 TW 台湾 A 🏠家宽 | x0.6'
+- name: '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 A 🏠家宽 | x0.6'
   type: vless
   server: jpv3q6m1x9r4k7t2n5w8p3y6c1z9h5f7.usuxlink.casa
   port: 20148
@@ -3430,7 +2721,7 @@ proxies:
     public-key: MaexCY4NnSGZCWk-0rK-cKDXbyv_z7lc-IYbDXDx_g4
     short-id: 88b7116cbd5cfa
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇼 TW 台湾 B 🏠家宽 | x0.8'
+- name: '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 B 🏠家宽 | x0.8'
   type: vless
   server: x7m3q9v5r2k8t1n6w4p7y3c9z5h2j8hk.usuxlink.casa
   port: 24439
@@ -3446,7 +2737,7 @@ proxies:
     public-key: lFi5zwLw_gI15RM-RaZbrW7D0WZfD8V66h1_wXEd7GQ
     short-id: 2d2b5589ea1f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇼 TW 台湾 C 🏠家宽 | x1.1'
+- name: '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 C 🏠家宽 | x1.1'
   type: vless
   server: jpm9x2q7v5r1k8t3n6w4p9y2c7z5h1j6.usuxlink.casa
   port: 44125
@@ -3462,7 +2753,7 @@ proxies:
     public-key: a6-aBDtAT6mHGbiOW7pTbDesQW5HflYm7E-Uz6hdnmM
     short-id: 9a1fe8d249f03e53
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇯🇵 JP 日本 A | x1.3'
+- name: '[⚖️ LawTools·30G] 🇯🇵 JP 日本 A | x1.3'
   type: vless
   server: r8f3c7m2x9r5k1t6n4w8y3c7z2h9j5jp.usuxlink.casa
   port: 28459
@@ -3478,7 +2769,7 @@ proxies:
     public-key: aQ1t5RvpdSk7gBI0SRUusL_NKm6Dv-XYXYJc2W7PB0Q
     short-id: 2eea9d50cf02
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇯🇵 JP 日本 B | x1'
+- name: '[⚖️ LawTools·30G] 🇯🇵 JP 日本 B | x1'
   type: vless
   server: greencloudvps-gen2.011214.best
   port: 32401
@@ -3494,7 +2785,7 @@ proxies:
     public-key: GEzyadr6ABnvWsSCuVEdFDOYKWEo7Sr3yycMlCm0qBs
     short-id: 43c373b56bfa
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇯🇵 JP 日本 C | x1.1'
+- name: '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
   type: vless
   server: jpv3q6m1x9r4k7t2n5w8p3y6c1z9h5f7.usuxlink.casa
   port: 33891
@@ -3510,7 +2801,7 @@ proxies:
     public-key: f4qjYcLFIAPVUo3uqdiBg0YmHGZyEDlsm1RN1iMTEHo
     short-id: 32fa1469706e0c
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇯🇵 JP 日本 D | x0.9'
+- name: '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
   type: vless
   server: s9m9x2q7v5r1k8t3n6w4p9y2c7z5h1jp.usuxlink.casa
   port: 48051
@@ -3526,14 +2817,14 @@ proxies:
     public-key: NlahWny7yfNlzxwTU8SOpCslrneepUAa1qhP1pk2yXo
     short-id: 106a268e79b17d11
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+- name: '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
   type: ss
   server: 2602:f92a:230:1100::a
   port: 33150
   cipher: 2022-blake3-aes-128-gcm
   password: MWE5Yjg5MGEyMGFhNzVmMQ==:OTlhY2Y5YTQtOTM4Ni00ZQ==
   udp: true
-- name: '[⚖️ LawTools30G] 🇰🇷 KR 韩国 A | x1'
+- name: '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 A | x1'
   type: vless
   server: jpv3q6m1x9r4k7t2n5w8p3y6c1z9h5f7.usuxlink.casa
   port: 21589
@@ -3549,7 +2840,7 @@ proxies:
     public-key: annR4pQwq3QGJT2MioKb2hRW37h-wSGJze2Hpjyuqks
     short-id: 02407c9288
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇰🇷 KR 韩国 B | x1.2'
+- name: '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 B | x1.2'
   type: vless
   server: jpm9x2q7v5r1k8t3n6w4p9y2c7z5h1j6.usuxlink.casa
   port: 35021
@@ -3565,7 +2856,7 @@ proxies:
     public-key: d_VElqBpxyTIWi3WwJCOn1qTf2X8uk4srx1Q-x0VEn0
     short-id: e47ebd6ac6fe66
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇰🇷 KR 韩国 C | x1.3'
+- name: '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 C | x1.3'
   type: vless
   server: r2v8m5q1v7k9t2n4w6p3y8c5z1h7j9jp.usuxlink.casa
   port: 21075
@@ -3581,7 +2872,7 @@ proxies:
     public-key: gLVWUf570e0sa-ZZuozttLhkoqU_eXXLq3voFeCIDiU
     short-id: 9a54887c94c393d9
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇰🇷 KR 韩国 D | x1'
+- name: '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 D | x1'
   type: vless
   server: v.ps-jp.usuxlink.casa
   port: 36005
@@ -3597,7 +2888,7 @@ proxies:
     public-key: haBf7QQmo93jXak1IdHvaqifDucnoJJ-9mgL_AJhH2U
     short-id: 41d106c63b7aac
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇬 SG 新加坡 A | x2'
+- name: '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 A | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 21481
@@ -3613,7 +2904,7 @@ proxies:
     public-key: iJVykb4J24cktKtaSjlqdGkVU-fzNuLJ8-8h2pVmkwA
     short-id: 91370ef93e0599
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇬 SG 新加坡 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 B | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 46305
@@ -3629,7 +2920,7 @@ proxies:
     public-key: EINWEXzR_-I-jVFzfSCgBTf1qOEWaCww6v12LF8Xql4
     short-id: c54b75b8c94a28
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇬 SG 新加坡 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.2'
   type: vless
   server: v2x7m5q9v3r8k1t4n6w2p7y5c9z3h8hk.usuxlink.casa
   port: 52215
@@ -3645,7 +2936,7 @@ proxies:
     public-key: OZViFrLx7IKU9l9-7gHa8sY-Dsb4m1r0WLHSNS2ZIko
     short-id: 8e30569bb02d3d
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇬 SG 新加坡 D | x1.2'
+- name: '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
   type: vless
   server: h7m3x9q5v2r8k1t6n4w7p3y9c2z5j8hk.usuxlink.casa
   port: 38231
@@ -3661,7 +2952,7 @@ proxies:
     public-key: G8FvjLn1zltH_SQCVAc1IRCm2uSU0nZZxqeDbjFDNn8
     short-id: 9d4295dd981f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇬 SG 新加坡 E | x0.5'
+- name: '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
   server: fxv4q7x2m8k5r1t6p3w9y4c7z2h6j8fsg.asn.tn
   port: 41706
   sni: fxv4q7x2m8k5r1t6p3w9y4c7z2h6j8fsg.asn.tn
@@ -3671,7 +2962,7 @@ proxies:
   ports: 41000-42000
   type: hysteria2
   password: 99acf9a4-9386-4ebb-a914-5029e80767c0
-- name: '[⚖️ LawTools30G] 🇲🇾 MY 马来西亚 A 🏠家宽 | x3'
+- name: '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 A 🏠家宽 | x3'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 20114
@@ -3687,7 +2978,7 @@ proxies:
     public-key: IWChD5kXesqjc4CAUm_ivhr970G_FVHMsTAFdaIm3XQ
     short-id: 803bd4c5217d4b74
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇲🇾 MY 马来西亚 B 🏠家宽 | x2'
+- name: '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 B 🏠家宽 | x2'
   type: vless
   server: fxq3v8x1m9r5k2t7n4w6p3y8c1z9h5hk.usuxlink.casa
   port: 30136
@@ -3703,7 +2994,7 @@ proxies:
     public-key: uX4yJR8GTmrk5LoWweXcJGTE9up_3x1t8CnanX3wQgI
     short-id: ba304e4c4c6a51
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇲🇾 MY 马来西亚 C 🏠家宽 | x2.5'
+- name: '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 C 🏠家宽 | x2.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 30134
@@ -3719,7 +3010,7 @@ proxies:
     public-key: tIMbA8k3fNDpbsPSA1LfVk82RXC5Y1nPcSnwiKWYXko
     short-id: a9ef05a1f9f4f6
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇻🇳 VN 越南 A | x1.8'
+- name: '[⚖️ LawTools·30G] 🇻🇳 VN 越南 A | x1.8'
   type: vless
   server: u5r8x3m7q1v9k4t6n2w5p10t3c7z1hk.usuxlink.casa
   port: 33369
@@ -3735,7 +3026,7 @@ proxies:
     public-key: GlyhdsA76wD-7nQc627YlIAOBX8Zbcva9phHkLtgwWI
     short-id: 03aa4950667113
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇻🇳 VN 越南 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇻🇳 VN 越南 B | x1.5'
   type: vless
   server: link-rfchosts-hk.usuxlink.casa
   port: 32194
@@ -3751,7 +3042,7 @@ proxies:
     public-key: 1IVXBIlAgnAlNxn-E0yOiyBgmlABFqd8B772Eu-U33A
     short-id: 6ead05d73ee7
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇻🇳 VN 越南 C | x1.5'
+- name: '[⚖️ LawTools·30G] 🇻🇳 VN 越南 C | x1.5'
   type: vless
   server: v2x7m5q9v3r8k1t4n6w2p7y5c9z3h8hk.usuxlink.casa
   port: 42825
@@ -3767,7 +3058,7 @@ proxies:
     public-key: RvVEmrKF0iB1iWLTazO0796mRs-I7PHCcjehxG8H-lI
     short-id: 79358a8e21f8
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇻🇳 VN 越南 D | x1.4'
+- name: '[⚖️ LawTools·30G] 🇻🇳 VN 越南 D | x1.4'
   type: vless
   server: h7m3x9q5v2r8k1t6n4w7p3y9c2z5j8hk.usuxlink.casa
   port: 20619
@@ -3783,7 +3074,7 @@ proxies:
     public-key: JitakCM2TUfiqbr0Ci0zjYN3yKiupsNyi_G3nYwD2g8
     short-id: e78c9dfa33321467
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇵🇭 PH 菲律宾 A | x1.5'
+- name: '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 A | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 47623
@@ -3799,7 +3090,7 @@ proxies:
     public-key: ijDHC51q62J2Bnuu99FXSV18xAWeZNEMoAwZRAPs-wY
     short-id: 6344e8b02b23dd
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇵🇭 PH 菲律宾 B | x1.3'
+- name: '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 B | x1.3'
   type: vless
   server: u5r8x3m7q1v9k4t6n2w5p10t3c7z1hk.usuxlink.casa
   port: 49452
@@ -3815,7 +3106,7 @@ proxies:
     public-key: qRM0uIwcHQUH5ImoY2i0OEgd36op0Sq8rCMKcYVDwlY
     short-id: 1a4c74ab29f4f733
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇵🇭 PH 菲律宾 C | x2'
+- name: '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 C | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 22272
@@ -3831,7 +3122,7 @@ proxies:
     public-key: i1519zhCros_hbwL1HVSA34VrGz_nha8P6dv2H6heRg
     short-id: 0335b93999fa69
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇵🇭 PH 菲律宾 D | x1.2'
+- name: '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 D | x1.2'
   type: vless
   server: link-rfchosts-hk.usuxlink.casa
   port: 16307
@@ -3847,7 +3138,7 @@ proxies:
     public-key: aWREGIFlF740xDPZ4F1wz-JUdoc-xDb2h4YLVRCHmyw
     short-id: 979d613388
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇭 TH 泰国 A | x2'
+- name: '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 A | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 39271
@@ -3863,7 +3154,7 @@ proxies:
     public-key: ri6IgUJ_TGCE7gMU2oRsIQ8yj9mGsaDXQxNaUNg62l4
     short-id: bb8fd476499c
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇭 TH 泰国 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 B | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 54703
@@ -3879,7 +3170,7 @@ proxies:
     public-key: bvq6q_0LOy6t5v8EV3YO-uJjgRNAU4TBtkiyybLGzCg
     short-id: a222d2e7db62
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇭 TH 泰国 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 C | x1.2'
   type: vless
   server: v2x7m5q9v3r8k1t4n6w2p7y5c9z3h8hk.usuxlink.casa
   port: 41852
@@ -3895,7 +3186,7 @@ proxies:
     public-key: _XzfHJR8BHCHfp-12JlYtwaXEJycHLq53aBbyDgYck8
     short-id: 8039cf489fe99769
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇭 TH 泰国 D | x1'
+- name: '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 D | x1'
   type: vless
   server: x7m3q9v5r2k8t1n6w4p7y3c9z5h2j8hk.usuxlink.casa
   port: 24911
@@ -3911,7 +3202,7 @@ proxies:
     public-key: MoBlbd43YOjJjF8Os1hnzM6HucbGkfXhTnPnCMBWh0E
     short-id: 204c3a93cd5b37
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇩 ID 印度尼西亚 A | x2'
+- name: '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 A | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 38235
@@ -3927,7 +3218,7 @@ proxies:
     public-key: qkAO1V4dyQaYBdJ3ICjFermNZ13Y6Asn_7tTdIZEABA
     short-id: 5967c590979f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇩 ID 印度尼西亚 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 B | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 57943
@@ -3943,7 +3234,7 @@ proxies:
     public-key: 1gHT_rLvd7lMzdYKHykMKJW_8wgFh-XLYfTZK51dUTs
     short-id: 6e2fcb439a15
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇩 ID 印度尼西亚 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 C | x1.2'
   type: vless
   server: v2x7m5q9v3r8k1t4n6w2p7y5c9z3h8hk.usuxlink.casa
   port: 33965
@@ -3959,7 +3250,7 @@ proxies:
     public-key: 9fiWYdTNxhqlMWfcBEkJnDuo6XtZ9u88NaajrBFKeFo
     short-id: ae40b0bb9ce5db42
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇩 ID 印度尼西亚 D | x1.2'
+- name: '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 D | x1.2'
   type: vless
   server: h7m3x9q5v2r8k1t6n4w7p3y9c2z5j8hk.usuxlink.casa
   port: 29161
@@ -3975,7 +3266,7 @@ proxies:
     public-key: dzC4xP2Xw5wgLtad_cGiAeO3SqZoCWhPJahpyI117CU
     short-id: c548acca335fdccd
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇳 IN 印度 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇮🇳 IN 印度 A | x1.2'
   type: vless
   server: i9q4m7x2v8r5k1t6n3w9p4y7c2z8h5hk.usuxlink.casa
   port: 42529
@@ -3991,7 +3282,7 @@ proxies:
     public-key: Xo5G3ckpjjUfCzdkj0Uk2kQ6aW1AFFXGPLrWdp7eiF0
     short-id: 1448ab01dd06
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇳 IN 印度 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇮🇳 IN 印度 B | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 54821
@@ -4007,7 +3298,7 @@ proxies:
     public-key: A9CdgEKyh0W16MbPR2WY6LxL63jSEhyR2VWYmWuBgl4
     short-id: 2f2be881ab24893f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇳 IN 印度 C | x2'
+- name: '[⚖️ LawTools·30G] 🇮🇳 IN 印度 C | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 40936
@@ -4023,7 +3314,7 @@ proxies:
     public-key: 8TmDEdGriBRDKVQawj2hUghKj9wGfbc-IyNOPOMH-Dg
     short-id: fa78c32e9c81a1a9
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇩 BD 孟加拉国 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 A | x1.2'
   type: vless
   server: i9q4m7x2v8r5k1t6n3w9p4y7c2z8h5hk.usuxlink.casa
   port: 53230
@@ -4039,7 +3330,7 @@ proxies:
     public-key: 6530nT-_NaSnvQgWdQ__-CUGXGHNyND9twFWa-gPGAk
     short-id: adec0a3e1ead
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇩 BD 孟加拉国 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 B | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 24731
@@ -4055,7 +3346,7 @@ proxies:
     public-key: 5D7amp6laboxAqvI-JUL9fTvRWYQmLu8e9zDteEXnFI
     short-id: 3e60d74f81efcd7d
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇩 BD 孟加拉国 C | x2'
+- name: '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 C | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 30641
@@ -4071,7 +3362,7 @@ proxies:
     public-key: qqhrK-Y9HidkRxuBQRPB2kanXGptm2fFXnGRULbs2TI
     short-id: edcd03f9780beace
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇰🇿 KZ 哈萨克斯坦 A | x1.6'
+- name: '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 A | x1.6'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 22118
@@ -4087,7 +3378,7 @@ proxies:
     public-key: wM3JEYmm6ojNtKZMBWApsSmUC0kHTk4kTCXBjfeKeT8
     short-id: ebe6e95f75b02e66
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇰🇿 KZ 哈萨克斯坦 B | x1.4'
+- name: '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 B | x1.4'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 32328
@@ -4103,7 +3394,7 @@ proxies:
     public-key: kVP0jt_rd8zbXnlt_UQt-FkzK7QwmbaNVF4kn2sc_EY
     short-id: 51efe5c3c65f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇰🇿 KZ 哈萨克斯坦 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 C | x1.2'
   type: vless
   server: dem4x7q2v8r1k5t6n3w9p4y7c2z8h5j2.nexa.lat
   port: 31211
@@ -4119,7 +3410,7 @@ proxies:
     public-key: jw76BhHDo7zEkAChrCyuLOOxdWav8zZD74iYViTspyY
     short-id: 534de3c6a13b
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇱 IL 以色列 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 A | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 41821
@@ -4135,7 +3426,7 @@ proxies:
     public-key: JFSh5nEdPiMHBOYtgBOGwGLYdIUDiLLnJek9T-Eg6FQ
     short-id: ad4053d967e789
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇱 IL 以色列 B | x1.7'
+- name: '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 B | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 29587
@@ -4151,7 +3442,7 @@ proxies:
     public-key: ue6Kjm9XwY_07Udu1RAsU8XqHUqpqy3W-zwcNg3zkHU
     short-id: 9f3fd6c7dbc7
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇱 IL 以色列 C | x1.1'
+- name: '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 C | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 44215
@@ -4167,7 +3458,7 @@ proxies:
     public-key: Oq5k7oBk1cmD0dj2xCnQJH2TO157xD39ul8vkOqOong
     short-id: c9e76ee2720356c4
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇷 TR 土耳其 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 A | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 38215
@@ -4183,7 +3474,7 @@ proxies:
     public-key: Rebor2u4X-anCQopmATwkIz0gKdZtCr6EnsAzO7XC3U
     short-id: 9ad2e7bdc22f9c
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇷 TR 土耳其 B | x1.7'
+- name: '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 B | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 38221
@@ -4199,7 +3490,7 @@ proxies:
     public-key: Xs1mJ2XJEp-KnofiF_cRojEkEcbsrY3krgrKblmFOS4
     short-id: aa4581df9d
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇹🇷 TR 土耳其 C | x1.1'
+- name: '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 C | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 38226
@@ -4215,7 +3506,7 @@ proxies:
     public-key: obDLS2pXNiHckRj0-nDPKnN61hSTcnuNXfipD3YnU3o
     short-id: 19580e3c96cc173f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇦 SA 沙特阿拉伯 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 A | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 23256
@@ -4231,7 +3522,7 @@ proxies:
     public-key: 6LqeCDTe12lemoJDZIbQRoyQUCDsLYBG1yuwU8gi6yc
     short-id: 808bc3af69d538
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇦 SA 沙特阿拉伯 B | x1.7'
+- name: '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 B | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 15709
@@ -4247,7 +3538,7 @@ proxies:
     public-key: LRp4NF9z7Dy7UKedRJDGjd9p73JT0l-UhLnGBIMiwVE
     short-id: 3c4c1dd42f73e91b
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇸🇦 SA 沙特阿拉伯 C | x1.1'
+- name: '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 C | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 44885
@@ -4263,7 +3554,7 @@ proxies:
     public-key: LZ6f6W6OqT9tHgu4Ma81RPBNhple0fB55ccvfXA-MS4
     short-id: 945be3f16577e152
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇦🇺 AU 澳大利亚 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 A | x1.2'
   type: vless
   server: h7m3x9q5v2r8k1t6n4w7p3y9c2z5j8hk.usuxlink.casa
   port: 39731
@@ -4279,7 +3570,7 @@ proxies:
     public-key: UBI0cZo2qzOWkJ3B3YGjKIfM_HgeUekkSW3sxDAuYRc
     short-id: 2e942e94f61e19
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇦🇺 AU 澳大利亚 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 B | x1.5'
   type: vless
   server: a2x7q5m9v3r8k1t6n4w2p7y5c9z3h8sg.usuxlink.casa
   port: 50731
@@ -4295,7 +3586,7 @@ proxies:
     public-key: TfbNl5TEuyNWYaQVXtmNA-7iwqt6niCm_5AUUDHBBks
     short-id: 1689236f193c594e
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇦🇺 AU 澳大利亚 C | x2'
+- name: '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 C | x2'
   type: vless
   server: isv8q2m9x5r1t7n3w6p4y8c2z9h5jsg.usuxlink.casa
   port: 11739
@@ -4311,7 +3602,7 @@ proxies:
     public-key: XdPeONyWJO4ivftJZlwjZw4-6627MQvZ9Y6N7AwHMVU
     short-id: 25e431841622d6
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 US 美国 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇺🇸 US 美国 A | x1.1'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 20235
@@ -4327,7 +3618,7 @@ proxies:
     public-key: oSU4EqrIIfeUiVF3ApIEbHCCljX5Kekq-heVPp7Zw0w
     short-id: cdbbfd483251
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 US 美国 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇺🇸 US 美国 B | x1.5'
   type: vless
   server: link1-rfchosts-jp.usuxlink.casa
   port: 24478
@@ -4343,7 +3634,7 @@ proxies:
     public-key: Mj7sCk-DIPHZTR8lLFS-5f1r2k2WsmPDyKWuHG9puCA
     short-id: 8415afe50af8
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 US 美国 C | x1.6'
+- name: '[⚖️ LawTools·30G] 🇺🇸 US 美国 C | x1.6'
   type: vless
   server: lg9q5v8r3k1t7n4w6p2u9c5z8h3j7sa.usuxlink.casa
   port: 18628
@@ -4359,7 +3650,7 @@ proxies:
     public-key: fXNq8H2Iu6MLCzMDiKgDoj_k7kzPiRm0QO9wa005DVU
     short-id: 92a188bdc763
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 US 美国 D | x1.4'
+- name: '[⚖️ LawTools·30G] 🇺🇸 US 美国 D | x1.4'
   type: vless
   server: r2v8m5q1v7k9t2n4w6p3y8c5z1h7j9jp.usuxlink.casa
   port: 28408
@@ -4375,7 +3666,7 @@ proxies:
     public-key: BmcDIoVnaCz-e6W5pRGr4_JbCAK8rquEhtaI90Djwgs
     short-id: 9ba88751b0e2
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 US 美国 E | x1.2'
+- name: '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 43882
@@ -4391,7 +3682,7 @@ proxies:
     public-key: 0Ukgmy3Q_3DVqOkDCHisnJE1snV3jQ8vfxDifZNVdXs
     short-id: 38c78d308d
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
+- name: '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
   type: vless
   server: usw2zv6q1n5r3t9y7m4p8c2x6d1f5h9j3.usuxlink.casa
   port: 40133
@@ -4407,14 +3698,14 @@ proxies:
     public-key: inXSUxvxRgg8SxR584ULa-ujrpjR29brLLzPJKGLAWk
     short-id: e7e9d13edb47
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇸 美国 G IPv6 | x1.3'
+- name: '[⚖️ LawTools·30G] 🇺🇸 美国 G IPv6 | x1.3'
   type: ss
   server: usv6.nexa.lat
   port: 32179
   cipher: 2022-blake3-aes-128-gcm
   password: MTI4MGU3NWZkMjg3MTg3OA==:OTlhY2Y5YTQtOTM4Ni00ZQ==
   udp: true
-- name: '[⚖️ LawTools30G] 🇺🇸 美国 x0.1'
+- name: '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
   server: us.asn.tn
   port: 40284
   sni: us.asn.tn
@@ -4424,7 +3715,7 @@ proxies:
   ports: 40000-41000
   type: hysteria2
   password: 99acf9a4-9386-4ebb-a914-5029e80767c0
-- name: '[⚖️ LawTools30G] 🇨🇦 CA 加拿大 A | x1'
+- name: '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 A | x1'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 42230
@@ -4440,7 +3731,7 @@ proxies:
     public-key: sjP4CizfdsX4MSrwxvM45h6hH2Xc0RpL_TopbWOmvgo
     short-id: d1357e94
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇦 CA 加拿大 B | x1.4'
+- name: '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 B | x1.4'
   type: vless
   server: lig61eff6235810240013a24e9c6acus.usuxlink.casa
   port: 31810
@@ -4456,7 +3747,7 @@ proxies:
     public-key: gZ28zp9LzITOT1h9x7R2yQiFoSGkayLNPu-o0XKES2I
     short-id: 866421738d40
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
+- name: '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
   type: vless
   server: 5ff61eff6235810240013a24e9c6acb7.usuxlink.casa
   port: 35180
@@ -4472,7 +3763,7 @@ proxies:
     public-key: qAzA9GxL3yPuQGOIIBTKTKjdRiyeo2sWSvTkhQ-1OCg
     short-id: dc72a9a48b
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇲🇽 MX 墨西哥 A 🏠家宽 | x2'
+- name: '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 A 🏠家宽 | x2'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 22755
@@ -4488,7 +3779,7 @@ proxies:
     public-key: TWnKAFdKrk_akCxzTSfeFbglsLa1Fa74C4uKAtfigmQ
     short-id: 0619fa4d4a5f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇲🇽 MX 墨西哥 B 🏠家宽 | x1.4'
+- name: '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 B 🏠家宽 | x1.4'
   type: vless
   server: 5ff61eff6235810240013a24e9c6acb7.usuxlink.casa
   port: 64218
@@ -4504,7 +3795,7 @@ proxies:
     public-key: IQdbDyif2tjWDZcuitkoog5DSvsHSbXucSSu-sV1Hm0
     short-id: 7d5c735ab60a
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇲🇽 MX 墨西哥 C 🏠家宽 | x1.6'
+- name: '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 C 🏠家宽 | x1.6'
   type: vless
   server: lig61eff6235810240013a24e9c6acus.usuxlink.casa
   port: 55275
@@ -4520,7 +3811,7 @@ proxies:
     public-key: K2mE6ak1FZsO4GVtBvNTxF9fQrFgMuI6BFNrHoVnPh8
     short-id: 20f71b0e0216886c
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇷 BR 巴西 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 A | x1.2'
   type: vless
   server: 5ff61eff6235810240013a24e9c6acb7.usuxlink.casa
   port: 22119
@@ -4536,7 +3827,7 @@ proxies:
     public-key: NV_CKvjvvYatEG-wNcVqTVLQwePWZLO6PBuQIUw9Lko
     short-id: f322ed64a3a50a
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇷 BR 巴西 B | x1.2'
+- name: '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 B | x1.2'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 37028
@@ -4552,7 +3843,7 @@ proxies:
     public-key: Ql77eel27GIlhC5XidjNXdXLM3GPrP9l6JTOo6cMr10
     short-id: d5e56579
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇷 BR 巴西 C | x1.5'
+- name: '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 C | x1.5'
   type: vless
   server: lig61eff6235810240013a24e9c6acus.usuxlink.casa
   port: 33611
@@ -4568,7 +3859,7 @@ proxies:
     public-key: zyYfovtle1jxfn88R93U6r1gtv4LbRaef-AJInejES4
     short-id: 2163964fa77b
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇴 CO 哥伦比亚 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 A | x1.1'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 49681
@@ -4584,7 +3875,7 @@ proxies:
     public-key: wi0qaGkdJLFDT5fXs18bJArhZyRyXLXcMcUL59OKI2A
     short-id: c3d73bc8
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇴 CO 哥伦比亚 B | x1.3'
+- name: '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 B | x1.3'
   type: vless
   server: 5ff61eff6235810240013a24e9c6acb7.usuxlink.casa
   port: 55243
@@ -4600,7 +3891,7 @@ proxies:
     public-key: r8Car9s_oRBXLwDeG46Qf6PwilRqryD4HOTg0qccc2Q
     short-id: 2a69bdff68
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇴 CO 哥伦比亚 C | x1.5'
+- name: '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 C | x1.5'
   type: vless
   server: lig61eff6235810240013a24e9c6acus.usuxlink.casa
   port: 32256
@@ -4616,7 +3907,7 @@ proxies:
     public-key: aLtAv0eNdNcjB-u1np4S3EhxiTgPm8kLBN5uLa6j2B4
     short-id: 2d6ad4875abe4669
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇱 CL 智利 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇨🇱 CL 智利 A | x1.2'
   type: vless
   server: 5ff61eff6235810240013a24e9c6acb7.usuxlink.casa
   port: 22519
@@ -4632,7 +3923,7 @@ proxies:
     public-key: mqVjLrUqkaiCRyL0bx7W0kPNQzbetjoosRMQkGGPS2Y
     short-id: 595f25e5de
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇱 CL 智利 B | x1.1'
+- name: '[⚖️ LawTools·30G] 🇨🇱 CL 智利 B | x1.1'
   type: vless
   server: i8q3x6m9v2r5k1n7p4w8y3c6z9h2j5us.usuxlink.casa
   port: 43692
@@ -4648,7 +3939,7 @@ proxies:
     public-key: 1Ltm6g2bpZ5uSsxMgPFw3Pkj09lzHK0PchIbX2vG0Ag
     short-id: 8029b5a486be33
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇨🇱 CL 智利 C | x1.6'
+- name: '[⚖️ LawTools·30G] 🇨🇱 CL 智利 C | x1.6'
   type: vless
   server: lig61eff6235810240013a24e9c6acus.usuxlink.casa
   port: 42628
@@ -4664,7 +3955,7 @@ proxies:
     public-key: UgfF1yV5-cOj6IaZzMouDW1LqGAFL5TpJ8OdeIMuJ0U
     short-id: a3e10f434a626010
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇬🇧  UK英国 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇬🇧  UK英国 A | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 16327
@@ -4680,7 +3971,7 @@ proxies:
     public-key: qwcz6_vvBWd-Vi3A2xyN11mwVrbYsCrT6_NpAF-Hjk8
     short-id: bbc5266438b514
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇬🇧 UK 英国 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇬🇧 UK 英国 B | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 46217
@@ -4696,7 +3987,7 @@ proxies:
     public-key: HlEf5cVkTdAp1w1Z0NxiqL8XH6vI6w4QOsaz5XG2VG4
     short-id: 59dc598b3108d3d8
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇬🇧 UK 英国 C | x1.7'
+- name: '[⚖️ LawTools·30G] 🇬🇧 UK 英国 C | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 30429
@@ -4712,7 +4003,7 @@ proxies:
     public-key: _qyy89rH7eOBeOIO4xHVND4NpyeAj-Qsluwj9gorYxk
     short-id: 5717eff8b776
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇬🇧 英国 x0.5'
+- name: '[⚖️ LawTools·30G] 🇬🇧 英国 x0.5'
   server: uk.asn.tn
   port: 4500
   sni: uk.asn.tn
@@ -4721,7 +4012,7 @@ proxies:
   skip-cert-verify: false
   type: hysteria2
   password: 99acf9a4-9386-4ebb-a914-5029e80767c0
-- name: '[⚖️ LawTools30G] 🇫🇷 FR 法国 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇫🇷 FR 法国 A | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 25876
@@ -4737,7 +4028,7 @@ proxies:
     public-key: KDeeep06dq0QrveacVCOIeaBYQAUK-Es88UK-CQBIT4
     short-id: 597add20bb3542
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇫🇷 FR 法国 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇫🇷 FR 法国 B | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 31704
@@ -4753,7 +4044,7 @@ proxies:
     public-key: -drCvo8--_n7SF6UNt5YjAWzmtFWudwtmUQxnl30Gx0
     short-id: dba4932f7fba
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇫🇷 FR 法国 C | x1.7'
+- name: '[⚖️ LawTools·30G] 🇫🇷 FR 法国 C | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 46128
@@ -4769,7 +4060,7 @@ proxies:
     public-key: IrPO6sUQ3T7Vdhk2m1-3pe7RaoUZlTUIjadkzmGPUy0
     short-id: 81444ca3640e88
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇫🇷 法国  | x0.5'
+- name: '[⚖️ LawTools·30G] 🇫🇷 法国  | x0.5'
   server: fr.asn.tn
   port: 40109
   sni: fr.asn.tn
@@ -4779,7 +4070,7 @@ proxies:
   ports: 40000-41000
   type: hysteria2
   password: 99acf9a4-9386-4ebb-a914-5029e80767c0
-- name: '[⚖️ LawTools30G] 🇩🇪 DE 德国 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇩🇪 DE 德国 A | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 62212
@@ -4795,7 +4086,7 @@ proxies:
     public-key: v3R8_hdjk65ni6cGjoMdmsnOVrUbvgN_eCzGjOSyIxA
     short-id: 09d27042fba4
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇩🇪 DE 德国 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇩🇪 DE 德国 B | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 51683
@@ -4811,7 +4102,7 @@ proxies:
     public-key: ToHprk0XatKX7USN4lhsJT3QpEMcBaDdq2jyb1DbI3I
     short-id: d15a243c4c
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇩🇪 DE 德国 C | x1.7'
+- name: '[⚖️ LawTools·30G] 🇩🇪 DE 德国 C | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 43861
@@ -4827,7 +4118,7 @@ proxies:
     public-key: CsN5xFOKg64hMZutn1FqYm209fUigiM_vIc0h6LXCQI
     short-id: 94e8864d1d2721
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇩🇪 德国 x0.5'
+- name: '[⚖️ LawTools·30G] 🇩🇪 德国 x0.5'
   server: de.011214.best
   port: 40432
   sni: de.011214.best
@@ -4837,7 +4128,7 @@ proxies:
   ports: 40000-41000
   type: hysteria2
   password: 99acf9a4-9386-4ebb-a914-5029e80767c0
-- name: '[⚖️ LawTools30G] 🇳🇱 NL 荷兰 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 A | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 55154
@@ -4853,7 +4144,7 @@ proxies:
     public-key: 549W6zqEI-_Xulo9pPvWoQbYwad7xG9nWj6RGDOr1GE
     short-id: c443468ebe0f51
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇳🇱 NL 荷兰 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 B | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 58412
@@ -4869,7 +4160,7 @@ proxies:
     public-key: JVzmixcsS9yl2eb7YCoGL1qvDTIHnVmqOJngyGgw23I
     short-id: 66553bb50161
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇳🇱 NL 荷兰 C | x1.7'
+- name: '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 C | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 32186
@@ -4885,7 +4176,7 @@ proxies:
     public-key: JVzmixcsS9yl2eb7YCoGL1qvDTIHnVmqOJngyGgw23I
     short-id: 66553bb50161
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇳🇱 荷兰 | x0.3'
+- name: '[⚖️ LawTools·30G] 🇳🇱 荷兰 | x0.3'
   server: indirect-nl-link.011214.best
   port: 40990
   sni: indirect-nl-link.011214.best
@@ -4895,7 +4186,7 @@ proxies:
   ports: 40000-41000
   type: hysteria2
   password: 99acf9a4-9386-4ebb-a914-5029e80767c0
-- name: '[⚖️ LawTools30G] 🇪🇸 ES 西班牙 A | x1.2'
+- name: '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 A | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 52542
@@ -4911,7 +4202,7 @@ proxies:
     public-key: 82hzXPfPDCSUhZ5rrdi-TTBaZj7yVFWWZJJZODgCiCo
     short-id: a9d763c5be97317d
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇪🇸 ES 西班牙 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 B | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 54619
@@ -4927,7 +4218,7 @@ proxies:
     public-key: Uk3g6VA9JgTDVscoUWcb_pSvNJtnKpzkmxHC1HUt2Hw
     short-id: 0b74a4469b8a49
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇪🇸 ES 西班牙 C | x1.7'
+- name: '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 C | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 55831
@@ -4943,7 +4234,7 @@ proxies:
     public-key: AEPM34C7bGhXRfvaGGRxYf-Wsypw2kl_2YhL847TKDU
     short-id: a9ab78e22cbd70e2
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇬 BG 保加利亚 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 A | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 56479
@@ -4959,7 +4250,7 @@ proxies:
     public-key: 13FRGnTaWExtAhRq6j1-0bVgNyJ9JsTZmTXRCeyuGiQ
     short-id: 7afa40dd1e9966
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇬 BG 保加利亚 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 B | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 51321
@@ -4975,7 +4266,7 @@ proxies:
     public-key: JC9en-mzxRQvFia8uQjQWScswMZt_pwlnb_OlMrnbBg
     short-id: eca6a8ffab931b40
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇧🇬 BG 保加利亚 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 C | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 63321
@@ -4991,7 +4282,7 @@ proxies:
     public-key: XKpFie80edsAqrG5YUiomkRUeL15ONXc5IyM25YMelE
     short-id: c22c7a906c6bec00
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇷🇴 RO 罗马尼亚 A | x1.5'
+- name: '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 A | x1.5'
   type: vless
   server: link-v.ps-de.casa.usuxlink.casa
   port: 37604
@@ -5007,7 +4298,7 @@ proxies:
     public-key: tyzbpx7Qdzs-kl29ZAk4GP6mD6VqVVFSGUzZXG2opRQ
     short-id: cf45da62484e
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇷🇴 RO 罗马尼亚 B | x1.7'
+- name: '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 B | x1.7'
   type: vless
   server: bandwagonhost-nl-link.usuxlink.casa
   port: 53862
@@ -5023,7 +4314,7 @@ proxies:
     public-key: aTQ_U2lrXqLV4znmr3sKn1DA_CtLBNPyjbCE6zEVF0Q
     short-id: 9759d6335ec7249c
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇷🇴 RO 罗马尼亚 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 C | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 55661
@@ -5039,7 +4330,7 @@ proxies:
     public-key: p_iEWkL7SngaflkzOq6R8HASVDSZMSGTEgmUKLwsM24
     short-id: 72b83426638937
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇦 UA 乌克兰 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 A | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 55279
@@ -5055,7 +4346,7 @@ proxies:
     public-key: lq8MMFCR-wxWe7V9s7OtqvUD_prwu8aYOKbPfCczmUs
     short-id: 6184bf991055c6
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇦 UA 乌克兰 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 B | x1.5'
   type: vless
   server: dem4x7q2v8r1k5t6n3w9p4y7c2z8h5j2.nexa.lat
   port: 33368
@@ -5071,7 +4362,7 @@ proxies:
     public-key: SDm_j-XSx-Xctr6Eq-Y-tJxbE2cQX9uVVrwJuObqIho
     short-id: 2d7c264f27b58582
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇺🇦 UA 乌克兰 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 C | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 33512
@@ -5087,7 +4378,7 @@ proxies:
     public-key: y5LiBgJoya1_HrlSPPFdsI7RkOa4BkyAJmR7tznuwDo
     short-id: 7198505bcb4018fb
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇷🇺 RU 俄罗斯 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 A | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 11662
@@ -5103,7 +4394,7 @@ proxies:
     public-key: 1FiITol93EkIB9Wo40KrcbI5tATyEBaoJXgBV0FDCmE
     short-id: 0b182c4dc9ef4d
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇷🇺 RU 俄罗斯 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 B | x1.5'
   type: vless
   server: dem4x7q2v8r1k5t6n3w9p4y7c2z8h5j2.nexa.lat
   port: 32462
@@ -5119,7 +4410,7 @@ proxies:
     public-key: AX0iPvKBVbbpEye24CdrXhJyXa9LlWNPFrrkXtSKdGs
     short-id: e37d483aee85e2
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇷🇺 RU 俄罗斯 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 C | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 23347
@@ -5135,7 +4426,7 @@ proxies:
     public-key: 7-ieQP8S0_mQNNd-N10bQk-BzTI20a2ig0Iw44Z4DH4
     short-id: fea1737623c6
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇹 IT 意大利 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 A | x1.1'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 11332
@@ -5151,7 +4442,7 @@ proxies:
     public-key: oknw-FckgEDcYTiY-l6q9AVKBZDFrGQMRAnoKhDWv3A
     short-id: 68b2d3d6498722
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇹 IT 意大利 B | x1.5'
+- name: '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 B | x1.5'
   type: vless
   server: dem4x7q2v8r1k5t6n3w9p4y7c2z8h5j2.nexa.lat
   port: 54103
@@ -5167,7 +4458,7 @@ proxies:
     public-key: d491IEGz4N2QZm9htzaIkpEM49YWWHy6kUpYh2qG6gA
     short-id: 6fd1e182719469
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇮🇹 IT 意大利 C | x1.2'
+- name: '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 C | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 55564
@@ -5183,7 +4474,7 @@ proxies:
     public-key: MdGLQ58zCpGx3eayJOqTJTAzPe4QvKmh-GwIpNeDQSE
     short-id: 2e9288c15f46
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇳🇬 NG 尼日利亚 A | x1.1'
+- name: '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 A | x1.1'
   type: vless
   server: dem4x7q2v8r1k5t6n3w9p4y7c2z8h5j2.nexa.lat
   port: 22416
@@ -5199,7 +4490,7 @@ proxies:
     public-key: aA0ay7T-R5IE_4qH_nDctVHoyhdaMp2BZYKhbgwgCyM
     short-id: 849c7b8909d05b80
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇳🇬 NG 尼日利亚 B | x1.2'
+- name: '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 B | x1.2'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 22236
@@ -5215,7 +4506,7 @@ proxies:
     public-key: Use_jcAkSW6yd1UPTkPNqA8-WT7g7bBObSnAYED4vjE
     short-id: a48a9eef0964
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇳🇬 NG 尼日利亚 C | x1.5'
+- name: '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 C | x1.5'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 22339
@@ -5231,7 +4522,7 @@ proxies:
     public-key: a9u-nNw7P76YD0jgfhs2NryWeiEkxP39Z9PPuwArTnE
     short-id: 8fdf263f41284705
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇿🇦 ZA 南非 A | x1.5'
+- name: '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
   type: vless
   server: c18e8352c27e4e7dbd05cb560dcze615.usuxlink.casa
   port: 22341
@@ -5247,7 +4538,7 @@ proxies:
     public-key: kd2eYXqhaxRtsfP__IULE2s2tnn7OC8huMNJSROcCho
     short-id: c8176fe404fd
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇿🇦 ZA 南非 B | x1.2'
+- name: '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
   type: vless
   server: c17e8352c27e4e7dbd05cb560ccde935.usuxlink.casa
   port: 61124
@@ -5263,7 +4554,7 @@ proxies:
     public-key: VN3HVVujpCjN9vEJS94_Y4Vsdy-eY1_ilubjRlZrI1w
     short-id: f6842af9c3bbdd1f
   client-fingerprint: chrome
-- name: '[⚖️ LawTools30G] 🇿🇦 ZA 南非 C | x1.1'
+- name: '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
   type: vless
   server: dem4x7q2v8r1k5t6n3w9p4y7c2z8h5j2.nexa.lat
   port: 23436
@@ -5279,209 +4570,1842 @@ proxies:
     public-key: MSw6HFVhpVNI-Uu0N381-l4b_K59VitVxad5cASz8j0
     short-id: d4327a87
   client-fingerprint: chrome
+- name: '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  type: anytls
+  server: hkv6.7r.fit
+  port: 16890
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  type: anytls
+  server: mo.5yu.online
+  port: 16890
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mo01.639205.xyz
+- name: '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk01.639205.xyz
+- name: '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6hk1.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 5
+    padding: true
+- name: '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nl01.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 50
+    padding: true
+- name: '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.639205.xyz
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 100
+    padding: true
+- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 44698
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 55285
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  type: anytls
+  server: hkv6.7r.fit
+  port: 16890
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  type: anytls
+  server: mo.5yu.online
+  port: 16890
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mo01.639205.xyz
+- name: '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk01.639205.xyz
+- name: '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6hk1.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 5
+    padding: true
+- name: '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nl01.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 50
+    padding: true
+- name: '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.639205.xyz
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 100
+    padding: true
+- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 44698
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 55285
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - 🇨🇦 加拿大·AI高纯专线
-  - ⚡ 自动优选
+  - ⚡ 智能优选 (自动测速)
+  - ⚡ 宝可梦专区 (180G·3独立账号)
+  - 🏝️ 布吉岛专区 (300G·3账号加拿大专线)
+  - 🌸 红杏出墙专区 (澳门🇲🇴/香港专线)
+  - 🇲🇴 澳门专区 (红杏出墙澳门)
+  - 🇭🇰 香港专区 (直连/BGP)
+  - 🇯🇵 日本专区
+  - 🇸🇬 新加坡专区
+  - 🇨🇦 加拿大专区 (AI高纯)
+  - 🇺🇸 美国专区
+  - 🛡️ 永久保底专区 (iKuuu & Knotic)
+  - 🐸 外部专线专区 (旧港/自由航线/蛙爪)
   - DIRECT
-  - '[📱 手机宝可梦A] 剩余流量：58.76 GB'
-  - '[📱 手机宝可梦A] 距离下次重置剩余：13 天'
-  - '[📱 手机宝可梦A] 套餐到期：2026-09-16'
-  - '[📱 手机宝可梦A] 建议：感到卡顿请切换到专线节点'
-  - '[📱 手机宝可梦A] 放丢失官网:https://love.p6m6.com'
-  - '[📱 手机宝可梦A] 放丢失官网2:https://love2.p6m6.com'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港01丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港02丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港03丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港04丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[📱 手机宝可梦A] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01丨Vless'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02丨Vless'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国04原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港01丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港02丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡07丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国01丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[📱 手机宝可梦B] 剩余流量：35.99 GB'
-  - '[📱 手机宝可梦B] 距离下次重置剩余：13 天'
-  - '[📱 手机宝可梦B] 套餐到期：2026-09-16'
-  - '[📱 手机宝可梦B] 建议：感到卡顿请切换到专线节点'
-  - '[📱 手机宝可梦B] 放丢失官网:https://love.p6m6.com'
-  - '[📱 手机宝可梦B] 放丢失官网2:https://love2.p6m6.com'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港01丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港02丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港03丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港04丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡04丨直连'
-- name: 🇨🇦 加拿大·AI高纯专线
-  type: select
-  proxies:
-  - '[🏝️ 布吉岛1号] 充值后可解锁更多节点哦🍭'
-  - '[🏝️ 布吉岛1号] 😈---氪金分割线---｜0.10元/G｜Reality｜'
-  - '[🏝️ 布吉岛1号] 😈英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛1号] 😈英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛1号] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛1号] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛1号] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛1号] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛1号] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛1号] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛1号] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛1号] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛1号] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛1号] 群 bujidaoChat.t.me'
-  - '[🏝️ 布吉岛1号] 最新官网 bujidao.org'
-  - '[🏝️ 布吉岛1号] 失联 bujidao@duck.com 邮件至'
-  - '[🏝️ 布吉岛2号] 充值后可解锁更多节点哦🍭'
-  - '[🏝️ 布吉岛2号] 😈---氪金分割线---｜0.10元/G｜Reality｜'
-  - '[🏝️ 布吉岛2号] 😈英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛2号] 😈英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛2号] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛2号] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛2号] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛2号] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛2号] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛2号] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛2号] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛2号] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛2号] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛2号] 群 bujidaoChat.t.me'
-  - '[🏝️ 布吉岛2号] 最新官网 bujidao.org'
-  - '[🏝️ 布吉岛2号] 失联 bujidao@duck.com 邮件至'
-  - '[🏝️ 布吉岛3号] 充值后可解锁更多节点哦🍭'
-  - '[🏝️ 布吉岛3号] 😈---氪金分割线---｜0.10元/G｜Reality｜'
-  - '[🏝️ 布吉岛3号] 😈英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛3号] 😈英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛3号] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛3号] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛3号] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛3号] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛3号] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛3号] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛3号] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛3号] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛3号] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛3号] 群 bujidaoChat.t.me'
-  - '[🏝️ 布吉岛3号] 最新官网 bujidao.org'
-  - '[🏝️ 布吉岛3号] 失联 bujidao@duck.com 邮件至'
-  - '[⚖️ LawTools30G] 🇨🇦 CA 加拿大 A | x1'
-  - '[⚖️ LawTools30G] 🇨🇦 CA 加拿大 B | x1.4'
-  - '[⚖️ LawTools30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
-- name: ⚡ 自动优选
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🚀 自由航线·1000G] 日本高速 12| BGP'
+  - '[🚀 自由航线·1000G] 日本高速 11| CTCM'
+  - '[🚀 自由航线·1000G] 新加坡高速 06| BGP'
+  - '[🚀 自由航线·1000G] 新加坡高速 05| CTCM'
+  - '[🚀 自由航线·1000G] 美国高速 04| BGP'
+  - '[🚀 自由航线·1000G] 美国高速 03| CTCM'
+  - '[🐸 蛙爪云·1号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-2'
+  - '[🐸 蛙爪云·2号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-2'
+  - '[⚓ 旧港·150G] 香港1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇭🇰 网站 : lotus.asn.tn'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 A 🏠家宽 | x0.6'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 B 🏠家宽 | x0.8'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 C 🏠家宽 | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 B | x1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 A | x1'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 C | x1.3'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 D | x1'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 A | x2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 A 🏠家宽 | x3'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 B 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 C 🏠家宽 | x2.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 A | x1.8'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 C | x2'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 A | x2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 D | x1'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 A | x2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 C | x2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 C | x2'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 A | x1.6'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 C | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 G IPv6 | x1.3'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 A | x1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 A 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 B 🏠家宽 | x1.4'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 B | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇬🇧  UK英国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇬🇧 英国 x0.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇫🇷 法国  | x0.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇩🇪 德国 x0.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇳🇱 荷兰 | x0.3'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+- name: ⚡ 智能优选 (自动测速)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - '[📱 手机宝可梦A] 剩余流量：58.76 GB'
-  - '[📱 手机宝可梦A] 距离下次重置剩余：13 天'
-  - '[📱 手机宝可梦A] 套餐到期：2026-09-16'
-  - '[📱 手机宝可梦A] 建议：感到卡顿请切换到专线节点'
-  - '[📱 手机宝可梦A] 放丢失官网:https://love.p6m6.com'
-  - '[📱 手机宝可梦A] 放丢失官网2:https://love2.p6m6.com'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港01丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港02丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港03丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港04丨直连'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[📱 手机宝可梦A] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[📱 手机宝可梦A] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01丨Vless'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02丨Vless'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国04原生丨直连【2x】'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港01丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇭🇰【亚洲】香港02丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡07丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本01丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇯🇵【亚洲】日本02丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国01丨V6【1x】'
-  - '[📱 手机宝可梦A] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[📱 手机宝可梦B] 剩余流量：35.99 GB'
-  - '[📱 手机宝可梦B] 距离下次重置剩余：13 天'
-  - '[📱 手机宝可梦B] 套餐到期：2026-09-16'
-  - '[📱 手机宝可梦B] 建议：感到卡顿请切换到专线节点'
-  - '[📱 手机宝可梦B] 放丢失官网:https://love.p6m6.com'
-  - '[📱 手机宝可梦B] 放丢失官网2:https://love2.p6m6.com'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港01丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港02丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港03丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港04丨直连'
-  - '[📱 手机宝可梦B] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[📱 手机宝可梦B] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[📱 手机宝可梦B] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[📱 手机宝可梦B] 🇯🇵【亚洲】日本01丨Vless'
-  - '[📱 手机宝可梦B] 🇯🇵【亚洲】日本02丨Vless'
-  - '[📱 手机宝可梦B] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
-  - '[📱 手机宝可梦B] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
-  - '[📱 手机宝可梦B] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
-  - '[📱 手机宝可梦B] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
-  - '[📱 手机宝可梦B] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[📱 手机宝可梦B] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-- name: 🤖 国际AI服务 (Google/Claude/OpenAI)
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🚀 自由航线·1000G] 日本高速 12| BGP'
+  - '[🚀 自由航线·1000G] 日本高速 11| CTCM'
+  - '[🚀 自由航线·1000G] 新加坡高速 06| BGP'
+  - '[🚀 自由航线·1000G] 新加坡高速 05| CTCM'
+  - '[🚀 自由航线·1000G] 美国高速 04| BGP'
+  - '[🚀 自由航线·1000G] 美国高速 03| CTCM'
+  - '[🐸 蛙爪云·1号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-2'
+  - '[🐸 蛙爪云·2号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-2'
+  - '[⚓ 旧港·150G] 香港1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇭🇰 网站 : lotus.asn.tn'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 A 🏠家宽 | x0.6'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 B 🏠家宽 | x0.8'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 C 🏠家宽 | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 B | x1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 A | x1'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 C | x1.3'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 D | x1'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 A | x2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 A 🏠家宽 | x3'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 B 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 C 🏠家宽 | x2.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 A | x1.8'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 C | x2'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 A | x2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 D | x1'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 A | x2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 C | x2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 C | x2'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 A | x1.6'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 C | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 G IPv6 | x1.3'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 A | x1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 A 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 B 🏠家宽 | x1.4'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 B | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇬🇧  UK英国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇬🇧 英国 x0.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇫🇷 法国  | x0.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇩🇪 德国 x0.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇳🇱 荷兰 | x0.3'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+- name: ⚡ 宝可梦专区 (180G·3独立账号)
   type: select
   proxies:
-  - 🇨🇦 加拿大·AI高纯专线
+  - ⚡ 宝可梦·自动优选
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+- name: ⚡ 宝可梦·自动优选
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+- name: 🏝️ 布吉岛专区 (300G·3账号加拿大专线)
+  type: select
+  proxies:
+  - 🏝️ 布吉岛·自动优选
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: 🏝️ 布吉岛·自动优选
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: 🌸 红杏出墙专区 (澳门🇲🇴/香港专线)
+  type: select
+  proxies:
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+- name: 🛡️ 永久保底专区 (iKuuu & Knotic)
+  type: select
+  proxies:
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本7-Ver.2'
+- name: 🐸 外部专线专区 (旧港/自由航线/蛙爪)
+  type: select
+  proxies:
+  - '[🚀 自由航线·1000G] 日本高速 12| BGP'
+  - '[🚀 自由航线·1000G] 日本高速 11| CTCM'
+  - '[🚀 自由航线·1000G] 新加坡高速 06| BGP'
+  - '[🚀 自由航线·1000G] 新加坡高速 05| CTCM'
+  - '[🚀 自由航线·1000G] 美国高速 04| BGP'
+  - '[🚀 自由航线·1000G] 美国高速 03| CTCM'
+  - '[🐸 蛙爪云·1号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-2'
+  - '[🐸 蛙爪云·2号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-2'
+  - '[⚓ 旧港·150G] 香港1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇭🇰 网站 : lotus.asn.tn'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 A 🏠家宽 | x0.6'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 B 🏠家宽 | x0.8'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 C 🏠家宽 | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 B | x1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 A | x1'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 C | x1.3'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 D | x1'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 A | x2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 A 🏠家宽 | x3'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 B 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 C 🏠家宽 | x2.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 A | x1.8'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 C | x2'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 A | x2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 D | x1'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 A | x2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 C | x2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 C | x2'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 A | x1.6'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 C | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 G IPv6 | x1.3'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 A | x1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 A 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 B 🏠家宽 | x1.4'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 B | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇬🇧  UK英国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇬🇧 英国 x0.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇫🇷 法国  | x0.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇩🇪 德国 x0.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇳🇱 荷兰 | x0.3'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
+- name: 🇲🇴 澳门专区 (红杏出墙澳门)
+  type: select
+  proxies:
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+- name: 🇭🇰 香港专区 (直连/BGP)
+  type: select
+  proxies:
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-2'
+  - '[⚓ 旧港·150G] 香港1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇭🇰 网站 : lotus.asn.tn'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+- name: 🇯🇵 日本专区
+  type: select
+  proxies:
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本03三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本04三网优化丨Vless 2x'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·1号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu·2号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·1号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🚀 自由航线·1000G] 日本高速 12| BGP'
+  - '[🚀 自由航线·1000G] 日本高速 11| CTCM'
+  - '[⚓ 旧港·150G] 日本1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 B | x1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+- name: 🇸🇬 新加坡专区
+  type: select
+  proxies:
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[🚀 自由航线·1000G] 新加坡高速 06| BGP'
+  - '[🚀 自由航线·1000G] 新加坡高速 05| CTCM'
+  - '[⚓ 旧港·150G] 新加坡1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 A | x2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
+- name: 🇨🇦 加拿大专区 (AI高纯)
+  type: select
+  proxies:
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·1号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·2号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛·3号(100G)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 A | x1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
+- name: 🇺🇸 美国专区
+  type: select
+  proxies:
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·1号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·2号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·3号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[🚀 自由航线·1000G] 美国高速 04| BGP'
+  - '[🚀 自由航线·1000G] 美国高速 03| CTCM'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-2'
+  - '[⚓ 旧港·150G] 美国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国4|Shadowsocks[1x]'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 C | x1.6'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 G IPv6 | x1.3'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+- name: 🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+  type: select
+  proxies:
+  - 🇨🇦 加拿大专区 (AI高纯)
+  - ⚡ 宝可梦专区 (180G·3独立账号)
   - 🚀 节点选择
-  - ⚡ 自动优选
+  - ⚡ 智能优选 (自动测速)
 - name: ✈️ Telegram 消息
   type: select
   proxies:
+  - ⚡ 智能优选 (自动测速)
+  - 🇭🇰 香港专区 (直连/BGP)
+  - 🇸🇬 新加坡专区
   - 🚀 节点选择
-  - ⚡ 自动优选
   - DIRECT
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
+  - ⚡ 智能优选 (自动测速)
   - DIRECT
 rules:
-- DOMAIN-SUFFIX,google.com,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,googleapis.com,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,gemini.google.com,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,anthropic.com,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,claude.ai,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,openai.com,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,oaistatic.com,🤖 国际AI服务 (Google/Claude/OpenAI)
-- DOMAIN-SUFFIX,oaiusercontent.com,🤖 国际AI服务 (Google/Claude/OpenAI)
+- DOMAIN-SUFFIX,google.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,googleapis.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,gemini.google.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,anthropic.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,claude.ai,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,openai.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,oaistatic.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
+- DOMAIN-SUFFIX,oaiusercontent.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
 - DOMAIN-SUFFIX,telegram.org,✈️ Telegram 消息
 - DOMAIN-SUFFIX,t.me,✈️ Telegram 消息
 - GEOIP,CN,DIRECT
