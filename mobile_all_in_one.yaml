@@ -7716,21 +7716,604 @@ proxies:
     public-key: MSw6HFVhpVNI-Uu0N381-l4b_K59VitVxad5cASz8j0
     short-id: d4327a87
   client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 香港1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 42105
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 香港2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 42105
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 香港3'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 42105
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 香港4'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 18923
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 香港5'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 18923
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 香港6'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 18923
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 日本1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 51299
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 日本2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 51299
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 日本3'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 51299
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 日本4'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 11987
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 新加坡1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 39811
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 新加坡2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 39811
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 新加坡3'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 39811
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 新加坡4'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 34675
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 台湾1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 13265
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 台湾2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 13265
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 印度1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 23418
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 印度2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 30321
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 美国1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 27456
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 美国2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 27456
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 美国3'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 53044
+  server: wingsa.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 英国1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 61034
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 英国2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 61034
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 德国1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 15782
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 德国2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 15782
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 澳大利亚1'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 48991
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[🍗 烧鸡翼工坊] 澳大利亚2'
+  password: f2a58b2b-037b-4da0-bf2a-3bdaf52fd13a
+  port: 48991
+  server: wings.xn--frxs53apxw.lol
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+- name: '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  type: anytls
+  server: hkv6.7r.fit
+  port: 16890
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  type: anytls
+  server: mo.5yu.online
+  port: 16890
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mo01.639205.xyz
+- name: '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk01.639205.xyz
+- name: '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6hk1.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 5
+    padding: true
+- name: '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nl01.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 50
+    padding: true
+- name: '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 33910f97-f994-4fe4-9504-aba27253da6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.639205.xyz
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 100
+    padding: true
+- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 44698
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 55285
+  password: 33910f97-f994-4fe4-9504-aba27253da6f
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  type: anytls
+  server: hkv6.7r.fit
+  port: 16890
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  type: anytls
+  server: mo.5yu.online
+  port: 16890
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mo01.639205.xyz
+- name: '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk01.639205.xyz
+- name: '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6hk1.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 5
+    padding: true
+- name: '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nl01.639205.xyz
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 50
+    padding: true
+- name: '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  type: vless
+  server: cf.os.kg
+  port: 2095
+  uuid: 57080b83-0576-489b-a7b1-8906eb469dab
+  alterId: 0
+  cipher: auto
+  udp: true
+  flow: null
+  encryption: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.639205.xyz
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 100
+    padding: true
+- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 44698
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
+- name: '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+  type: anytls
+  server: aws.v4.zh.kg
+  port: 55285
+  password: 57080b83-0576-489b-a7b1-8906eb469dab
+  udp: true
+  sni: updates.cdn-apple.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ⚡ 智能优选 (自动测速)
-  - ⚡ 宝可梦专区 (600G·10满血号)
-  - 🏝️ 布吉岛专区 (900G·加拿大AI专线)
-  - 🌸 红杏出墙专区 (澳门🇲🇴/香港专线)
+  - ⚡ 宝可梦专区
+  - 🏝️ 布吉岛专区
+  - 🌸 红杏出墙专区
+  - 🐸 蛙爪云专区
+  - 🍗 烧鸡翼工坊专区
+  - 🚀 自由航线专区
+  - ⚓ 旧港专区
+  - 🛡️ 永久保底专区
+  - ⚖️ LawTools专区
   - 🇲🇴 澳门专区 (红杏出墙澳门)
-  - 🇭🇰 香港专区 (直连/BGP)
+  - 🇭🇰 香港专区
   - 🇯🇵 日本专区
   - 🇸🇬 新加坡专区
-  - 🇨🇦 加拿大专区 (AI高纯)
+  - 🇨🇦 加拿大专区
   - 🇺🇸 美国专区
-  - 🛡️ 永久保底专区 (iKuuu & Knotic)
   - DIRECT
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
@@ -8377,6 +8960,51 @@ proxy-groups:
   - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
   - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
   - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
+  - '[🍗 烧鸡翼工坊] 香港1'
+  - '[🍗 烧鸡翼工坊] 香港2'
+  - '[🍗 烧鸡翼工坊] 香港3'
+  - '[🍗 烧鸡翼工坊] 香港4'
+  - '[🍗 烧鸡翼工坊] 香港5'
+  - '[🍗 烧鸡翼工坊] 香港6'
+  - '[🍗 烧鸡翼工坊] 日本1'
+  - '[🍗 烧鸡翼工坊] 日本2'
+  - '[🍗 烧鸡翼工坊] 日本3'
+  - '[🍗 烧鸡翼工坊] 日本4'
+  - '[🍗 烧鸡翼工坊] 新加坡1'
+  - '[🍗 烧鸡翼工坊] 新加坡2'
+  - '[🍗 烧鸡翼工坊] 新加坡3'
+  - '[🍗 烧鸡翼工坊] 新加坡4'
+  - '[🍗 烧鸡翼工坊] 台湾1'
+  - '[🍗 烧鸡翼工坊] 台湾2'
+  - '[🍗 烧鸡翼工坊] 印度1'
+  - '[🍗 烧鸡翼工坊] 印度2'
+  - '[🍗 烧鸡翼工坊] 美国1'
+  - '[🍗 烧鸡翼工坊] 美国2'
+  - '[🍗 烧鸡翼工坊] 美国3'
+  - '[🍗 烧鸡翼工坊] 英国1'
+  - '[🍗 烧鸡翼工坊] 英国2'
+  - '[🍗 烧鸡翼工坊] 德国1'
+  - '[🍗 烧鸡翼工坊] 德国2'
+  - '[🍗 烧鸡翼工坊] 澳大利亚1'
+  - '[🍗 烧鸡翼工坊] 澳大利亚2'
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
 - name: ⚡ 智能优选 (自动测速)
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -9028,7 +9656,52 @@ proxy-groups:
   - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
   - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
   - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
-- name: ⚡ 宝可梦专区 (600G·10满血号)
+  - '[🍗 烧鸡翼工坊] 香港1'
+  - '[🍗 烧鸡翼工坊] 香港2'
+  - '[🍗 烧鸡翼工坊] 香港3'
+  - '[🍗 烧鸡翼工坊] 香港4'
+  - '[🍗 烧鸡翼工坊] 香港5'
+  - '[🍗 烧鸡翼工坊] 香港6'
+  - '[🍗 烧鸡翼工坊] 日本1'
+  - '[🍗 烧鸡翼工坊] 日本2'
+  - '[🍗 烧鸡翼工坊] 日本3'
+  - '[🍗 烧鸡翼工坊] 日本4'
+  - '[🍗 烧鸡翼工坊] 新加坡1'
+  - '[🍗 烧鸡翼工坊] 新加坡2'
+  - '[🍗 烧鸡翼工坊] 新加坡3'
+  - '[🍗 烧鸡翼工坊] 新加坡4'
+  - '[🍗 烧鸡翼工坊] 台湾1'
+  - '[🍗 烧鸡翼工坊] 台湾2'
+  - '[🍗 烧鸡翼工坊] 印度1'
+  - '[🍗 烧鸡翼工坊] 印度2'
+  - '[🍗 烧鸡翼工坊] 美国1'
+  - '[🍗 烧鸡翼工坊] 美国2'
+  - '[🍗 烧鸡翼工坊] 美国3'
+  - '[🍗 烧鸡翼工坊] 英国1'
+  - '[🍗 烧鸡翼工坊] 英国2'
+  - '[🍗 烧鸡翼工坊] 德国1'
+  - '[🍗 烧鸡翼工坊] 德国2'
+  - '[🍗 烧鸡翼工坊] 澳大利亚1'
+  - '[🍗 烧鸡翼工坊] 澳大利亚2'
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+- name: ⚡ 宝可梦专区
   type: select
   proxies:
   - ⚡ 宝可梦·自动优选
@@ -9618,7 +10291,7 @@ proxy-groups:
   - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-- name: 🏝️ 布吉岛专区 (900G·加拿大AI专线)
+- name: 🏝️ 布吉岛专区
   type: select
   proxies:
   - 🏝️ 布吉岛·自动优选
@@ -9826,15 +10499,338 @@ proxy-groups:
   - '[🏝️ 布吉岛_9号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   - '[🏝️ 布吉岛_9号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   - '[🏝️ 布吉岛_9号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-- name: 🌸 红杏出墙专区 (澳门🇲🇴/香港专线)
+- name: 🌸 红杏出墙专区
   type: select
   proxies:
-  - DIRECT
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
+- name: 🐸 蛙爪云专区
+  type: select
+  proxies:
+  - '[🐸 蛙爪云·1号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·1号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·1号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-2'
+  - '[🐸 蛙爪云·1号] 🇬🇧英国-hy2-3'
+  - '[🐸 蛙爪云·2号] ---连不上的时候请更新订阅---'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-1'
+  - '[🐸 蛙爪云·2号] 🇭🇰香港-2'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-1'
+  - '[🐸 蛙爪云·2号] 🇺🇸美国-2'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-1'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-2'
+  - '[🐸 蛙爪云·2号] 🇬🇧英国-hy2-3'
+- name: 🍗 烧鸡翼工坊专区
+  type: select
+  proxies:
+  - '[🍗 烧鸡翼工坊] 香港1'
+  - '[🍗 烧鸡翼工坊] 香港2'
+  - '[🍗 烧鸡翼工坊] 香港3'
+  - '[🍗 烧鸡翼工坊] 香港4'
+  - '[🍗 烧鸡翼工坊] 香港5'
+  - '[🍗 烧鸡翼工坊] 香港6'
+  - '[🍗 烧鸡翼工坊] 日本1'
+  - '[🍗 烧鸡翼工坊] 日本2'
+  - '[🍗 烧鸡翼工坊] 日本3'
+  - '[🍗 烧鸡翼工坊] 日本4'
+  - '[🍗 烧鸡翼工坊] 新加坡1'
+  - '[🍗 烧鸡翼工坊] 新加坡2'
+  - '[🍗 烧鸡翼工坊] 新加坡3'
+  - '[🍗 烧鸡翼工坊] 新加坡4'
+  - '[🍗 烧鸡翼工坊] 台湾1'
+  - '[🍗 烧鸡翼工坊] 台湾2'
+  - '[🍗 烧鸡翼工坊] 印度1'
+  - '[🍗 烧鸡翼工坊] 印度2'
+  - '[🍗 烧鸡翼工坊] 美国1'
+  - '[🍗 烧鸡翼工坊] 美国2'
+  - '[🍗 烧鸡翼工坊] 美国3'
+  - '[🍗 烧鸡翼工坊] 英国1'
+  - '[🍗 烧鸡翼工坊] 英国2'
+  - '[🍗 烧鸡翼工坊] 德国1'
+  - '[🍗 烧鸡翼工坊] 德国2'
+  - '[🍗 烧鸡翼工坊] 澳大利亚1'
+  - '[🍗 烧鸡翼工坊] 澳大利亚2'
+- name: 🚀 自由航线专区
+  type: select
+  proxies:
+  - '[🚀 自由航线·1000G] 日本高速 12| BGP'
+  - '[🚀 自由航线·1000G] 日本高速 11| CTCM'
+  - '[🚀 自由航线·1000G] 新加坡高速 06| BGP'
+  - '[🚀 自由航线·1000G] 新加坡高速 05| CTCM'
+  - '[🚀 自由航线·1000G] 美国高速 04| BGP'
+  - '[🚀 自由航线·1000G] 美国高速 03| CTCM'
+- name: ⚓ 旧港专区
+  type: select
+  proxies:
+  - '[⚓ 旧港·150G] 香港1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 香港4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 香港4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 新加坡4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 日本4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 日本4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 美国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 美国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 韩国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 韩国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 越南4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 越南4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 土耳其4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 法国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 法国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 德国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 德国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 英国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 英国4|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国1|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国1|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国2|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国2|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国3|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国3|Shadowsocks[1x]'
+  - '[⚓ 旧港·150G] 泰国4|AnyTLS[1x]'
+  - '[⚓ 旧港·150G] 泰国4|Shadowsocks[1x]'
+- name: 🛡️ 永久保底专区
+  type: select
+  proxies:
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本1-Ver.7'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本2-Ver.8'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本3-Ver.7'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本4-Ver.8'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本5-Ver.9'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本6-Ver.8'
+  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本7-Ver.2'
+  - '[🛡️ Knotic保底·1号] SG-V6-L1-2'
+  - '[🛡️ Knotic保底·1号] US-COV-L0-1'
+  - '[🛡️ Knotic保底·1号] US-COV-V6-L0-1'
+  - '[🛡️ Knotic保底·1号] US-V6-free-L0-1'
+  - '[🛡️ Knotic保底·2号] SG-V6-L1-2'
+  - '[🛡️ Knotic保底·2号] US-COV-L0-1'
+  - '[🛡️ Knotic保底·2号] US-COV-V6-L0-1'
+  - '[🛡️ Knotic保底·2号] US-V6-free-L0-1'
+- name: ⚖️ LawTools专区
+  type: select
+  proxies:
+  - '[⚖️ LawTools·30G] 🇭🇰 网站 : lotus.asn.tn'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 A | x1'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 A 🏠家宽 | x0.6'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 B 🏠家宽 | x0.8'
+  - '[⚖️ LawTools·30G] 🇹🇼 TW 台湾 C 🏠家宽 | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 B | x1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
+  - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 A | x1'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 C | x1.3'
+  - '[⚖️ LawTools·30G] 🇰🇷 KR 韩国 D | x1'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 A | x2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.3'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 A 🏠家宽 | x3'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 B 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇾 MY 马来西亚 C 🏠家宽 | x2.5'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇻🇳 VN 越南 D | x1.4'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 C | x2'
+  - '[⚖️ LawTools·30G] 🇵🇭 PH 菲律宾 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 A | x2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇭 TH 泰国 D | x1'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 A | x2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇩 ID 印度尼西亚 D | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇮🇳 IN 印度 C | x2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇩 BD 孟加拉国 C | x2'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 A | x1.6'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇰🇿 KZ 哈萨克斯坦 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 B | x1'
+  - '[⚖️ LawTools·30G] 🇮🇱 IL 以色列 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 B | x1'
+  - '[⚖️ LawTools·30G] 🇹🇷 TR 土耳其 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 B | x1'
+  - '[⚖️ LawTools·30G] 🇸🇦 SA 沙特阿拉伯 C | x1.1'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 A | x1.6'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇦🇺 AU 澳大利亚 C | x1.8'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 D | x1.3'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 A | x1'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 B | x1.4'
+  - '[⚖️ LawTools·30G] 🇨🇦 CA 加拿大 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 A 🏠家宽 | x2'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 B 🏠家宽 | x1.4'
+  - '[⚖️ LawTools·30G] 🇲🇽 MX 墨西哥 C 🏠家宽 | x1.6'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 A | x1.3'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇧🇷 BR 巴西 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 B | x1.3'
+  - '[⚖️ LawTools·30G] 🇨🇴 CO 哥伦比亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 B | x1.1'
+  - '[⚖️ LawTools·30G] 🇨🇱 CL 智利 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇬🇧  UK英国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇬🇧 UK 英国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇬🇧 英国 x0.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇫🇷 FR 法国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇫🇷 法国  | x0.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇩🇪 DE 德国 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇩🇪 德国 x0.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇳🇱 NL 荷兰 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇳🇱 荷兰 | x0.3'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 A | x1.2'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇪🇸 ES 西班牙 C | x1.7'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 B | x1.5'
+  - '[⚖️ LawTools·30G] 🇧🇬 BG 保加利亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 B | x1.7'
+  - '[⚖️ LawTools·30G] 🇷🇴 RO 罗马尼亚 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 B | x1'
+  - '[⚖️ LawTools·30G] 🇺🇦 UA 乌克兰 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 B | x1'
+  - '[⚖️ LawTools·30G] 🇷🇺 RU 俄罗斯 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 B | x1'
+  - '[⚖️ LawTools·30G] 🇮🇹 IT 意大利 C | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 A | x1.1'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇳🇬 NG 尼日利亚 C | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 A | x1.5'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 B | x1.2'
+  - '[⚖️ LawTools·30G] 🇿🇦 ZA 南非 C | x1.1'
 - name: 🇲🇴 澳门专区 (红杏出墙澳门)
   type: select
   proxies:
-  - DIRECT
-- name: 🇭🇰 香港专区 (直连/BGP)
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
+  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
+- name: 🇭🇰 香港专区
   type: select
   proxies:
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
@@ -9924,6 +10920,20 @@ proxy-groups:
   - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 B | x1.3'
   - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 C | x1.2'
   - '[⚖️ LawTools·30G] 🇭🇰 HK 香港 D | x1'
+  - '[🍗 烧鸡翼工坊] 香港1'
+  - '[🍗 烧鸡翼工坊] 香港2'
+  - '[🍗 烧鸡翼工坊] 香港3'
+  - '[🍗 烧鸡翼工坊] 香港4'
+  - '[🍗 烧鸡翼工坊] 香港5'
+  - '[🍗 烧鸡翼工坊] 香港6'
+  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
+  - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
+  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
 - name: 🇯🇵 日本专区
   type: select
   proxies:
@@ -10054,6 +11064,10 @@ proxy-groups:
   - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 C | x1.1'
   - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 D | x0.9'
   - '[⚖️ LawTools·30G] 🇯🇵 JP 日本 E IPv6 | x0.8'
+  - '[🍗 烧鸡翼工坊] 日本1'
+  - '[🍗 烧鸡翼工坊] 日本2'
+  - '[🍗 烧鸡翼工坊] 日本3'
+  - '[🍗 烧鸡翼工坊] 日本4'
 - name: 🇸🇬 新加坡专区
   type: select
   proxies:
@@ -10154,7 +11168,11 @@ proxy-groups:
   - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 C | x1.3'
   - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 D | x1.2'
   - '[⚖️ LawTools·30G] 🇸🇬 SG 新加坡 E | x0.5'
-- name: 🇨🇦 加拿大专区 (AI高纯)
+  - '[🍗 烧鸡翼工坊] 新加坡1'
+  - '[🍗 烧鸡翼工坊] 新加坡2'
+  - '[🍗 烧鸡翼工坊] 新加坡3'
+  - '[🍗 烧鸡翼工坊] 新加坡4'
+- name: 🇨🇦 加拿大专区
   type: select
   proxies:
   - '[🏝️ 布吉岛_1号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
@@ -10349,61 +11367,27 @@ proxy-groups:
   - '[⚖️ LawTools·30G] 🇺🇸 US 美国 E | x1.2'
   - '[⚖️ LawTools·30G] 🇺🇸 US 美国 F | 🏠家宽 | x2'
   - '[⚖️ LawTools·30G] 🇺🇸 美国 x0.1'
-- name: 🛡️ 永久保底专区 (iKuuu & Knotic)
+  - '[🍗 烧鸡翼工坊] 美国1'
+  - '[🍗 烧鸡翼工坊] 美国2'
+  - '[🍗 烧鸡翼工坊] 美国3'
+  - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
+  - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
+- name: 🤖 国际AI服务
   type: select
   proxies:
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本1-Ver.7'
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本2-Ver.8'
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本3-Ver.7'
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本4-Ver.8'
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本5-Ver.9'
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本6-Ver.8'
-  - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本7-Ver.2'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本1-Ver.7'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本2-Ver.8'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本3-Ver.7'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本4-Ver.8'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本5-Ver.9'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本6-Ver.8'
-  - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本7-Ver.2'
-  - '[🛡️ Knotic保底·1号] SG-V6-L1-2'
-  - '[🛡️ Knotic保底·1号] US-COV-L0-1'
-  - '[🛡️ Knotic保底·1号] US-COV-V6-L0-1'
-  - '[🛡️ Knotic保底·1号] US-V6-free-L0-1'
-  - '[🛡️ Knotic保底·2号] SG-V6-L1-2'
-  - '[🛡️ Knotic保底·2号] US-COV-L0-1'
-  - '[🛡️ Knotic保底·2号] US-COV-V6-L0-1'
-  - '[🛡️ Knotic保底·2号] US-V6-free-L0-1'
-- name: 🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-  type: select
-  proxies:
-  - 🇨🇦 加拿大专区 (AI高纯)
+  - 🇨🇦 加拿大专区
   - 🇲🇴 澳门专区 (红杏出墙澳门)
-  - ⚡ 宝可梦专区 (600G·10满血号)
-  - ⚡ 智能优选 (自动测速)
-- name: ✈️ Telegram 消息
-  type: select
-  proxies:
-  - ⚡ 智能优选 (自动测速)
-  - 🇭🇰 香港专区 (直连/BGP)
-  - 🇸🇬 新加坡专区
-  - DIRECT
-- name: 🐟 漏网之鱼
-  type: select
-  proxies:
+  - ⚡ 宝可梦专区
   - 🚀 节点选择
   - ⚡ 智能优选 (自动测速)
-  - DIRECT
 rules:
-- DOMAIN-SUFFIX,google.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,googleapis.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,gemini.google.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,anthropic.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,claude.ai,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,openai.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,oaistatic.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,oaiusercontent.com,🤖 国际AI服务 (Claude/ChatGPT/Gemini)
-- DOMAIN-SUFFIX,telegram.org,✈️ Telegram 消息
-- DOMAIN-SUFFIX,t.me,✈️ Telegram 消息
+- DOMAIN-SUFFIX,google.com,🤖 国际AI服务
+- DOMAIN-SUFFIX,googleapis.com,🤖 国际AI服务
+- DOMAIN-SUFFIX,gemini.google.com,🤖 国际AI服务
+- DOMAIN-SUFFIX,anthropic.com,🤖 国际AI服务
+- DOMAIN-SUFFIX,claude.ai,🤖 国际AI服务
+- DOMAIN-SUFFIX,openai.com,🤖 国际AI服务
+- DOMAIN-SUFFIX,oaistatic.com,🤖 国际AI服务
+- DOMAIN-SUFFIX,oaiusercontent.com,🤖 国际AI服务
 - GEOIP,CN,DIRECT
-- MATCH,🐟 漏网之鱼
+- MATCH,🚀 节点选择
