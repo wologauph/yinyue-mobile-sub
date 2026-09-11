@@ -11381,6 +11381,10 @@ proxy-groups:
   - 🚀 节点选择
   - ⚡ 智能优选 (自动测速)
 rules:
+- DOMAIN-SUFFIX,telegram.org,🤖 国际AI服务
+- DOMAIN-SUFFIX,t.me,🤖 国际AI服务
+- DOMAIN-SUFFIX,tg.me,🤖 国际AI服务
+- DOMAIN-KEYWORD,telegram,🤖 国际AI服务
 - DOMAIN-SUFFIX,google.com,🤖 国际AI服务
 - DOMAIN-SUFFIX,googleapis.com,🤖 国际AI服务
 - DOMAIN-SUFFIX,gemini.google.com,🤖 国际AI服务
