@@ -6,974 +6,966 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9097
 proxies:
-- name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  type: vless
-  server: 152.175.28.50
-  port: 50133
-  uuid: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  type: vless
-  server: vless-sg01.waimaosass.icu
-  port: 50131
-  uuid: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  type: vless
-  server: vless-sg02.waimaosass.icu
-  port: 50131
-  uuid: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: ios
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  type: vless
-  server: vless-jp02.waimaosass.icu
-  port: 50131
-  uuid: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  type: vless
-  server: vless-jp03.waimaosass.icu
-  port: 50131
-  uuid: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-- name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54357
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54357
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54258
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54258
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54261
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54261
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54273
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: e0b2d6f4-319e-4cae-9536-51d78f16c838
   port: 54273
-  password: 2e05a811-e04f-45fe-a75d-2197ac5a831c
-  udp: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
-  udp: true
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
+  type: trojan
   udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  type: vless
-  server: 152.175.28.50
-  port: 50133
-  uuid: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  type: vless
-  server: vless-sg01.waimaosass.icu
-  port: 50131
-  uuid: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  type: vless
-  server: vless-sg02.waimaosass.icu
-  port: 50131
-  uuid: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: ios
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  type: vless
-  server: vless-jp02.waimaosass.icu
-  port: 50131
-  uuid: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  type: vless
-  server: vless-jp03.waimaosass.icu
-  port: 50131
-  uuid: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-- name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54357
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54357
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54258
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54258
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54261
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54261
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54273
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 7bc97ede-48f4-41b1-bc1b-18c2f4746c27
   port: 54273
-  password: fe898d17-0fa5-4c53-896b-8f352171e3ce
-  udp: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
-  udp: true
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
+  type: trojan
   udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  type: vless
-  server: 152.175.28.50
-  port: 50133
-  uuid: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  type: vless
-  server: vless-sg01.waimaosass.icu
-  port: 50131
-  uuid: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  type: vless
-  server: vless-sg02.waimaosass.icu
-  port: 50131
-  uuid: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: ios
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  type: vless
-  server: vless-jp02.waimaosass.icu
-  port: 50131
-  uuid: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  type: vless
-  server: vless-jp03.waimaosass.icu
-  port: 50131
-  uuid: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-- name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54357
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54357
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54258
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54258
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54261
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54261
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54273
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 3eb651e7-e927-4a53-99c5-95110096f87e
   port: 54273
-  password: 62f7724c-4561-41f9-a6cb-378a5362492c
-  udp: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  server: 209.9.200.33
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: d1.awsstatic.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
-  udp: true
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  server: hk01.poke-mon.xyz
-  port: 8443
+  type: trojan
   udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  type: vless
-  server: 152.175.28.50
-  port: 50133
-  uuid: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
+  type: trojan
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  server: sg01-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
+  type: trojan
   udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
+  type: trojan
   udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  server: sg02-hy.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
+  type: trojan
   udp: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  type: vless
-  server: vless-sg01.waimaosass.icu
-  port: 50131
-  uuid: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
+  type: trojan
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
+- name: '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: 62401e23-8860-465b-b124-2c0e74cda8a0
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  type: vless
-  server: vless-sg02.waimaosass.icu
-  port: 50131
-  uuid: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
+  sni: www.bing.com
+  type: trojan
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: ios
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  type: vless
-  server: vless-jp01.waimaosass.icu
-  port: 50131
-  uuid: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  type: vless
-  server: vless-jp02.waimaosass.icu
-  port: 50131
-  uuid: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  type: vless
-  server: vless-jp03.waimaosass.icu
-  port: 50131
-  uuid: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: d1.awsstatic.com
-- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  server: us01zl.poke-mon.xyz
-  port: 20000
-  ports: 20000-50000
-  mport: 20000-50000
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
-  server: us02zl.poke-mon.xyz
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
   port: 54357
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.lamer.com.hk
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
   port: 54357
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
   sni: www.lamer.com.hk
-  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
   port: 54258
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
   port: 54258
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-02.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
   port: 54261
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.bing.com
+  server: ptxlv6-01.waimaosass.icu
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  type: trojan
-  server: ptxlv6-02.waimaosass.icu
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
   port: 54261
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
-  type: trojan
-  server: ptxlv6-01.waimaosass.icu
-  port: 54273
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  type: trojan
   server: ptxlv6-02.waimaosass.icu
-  port: 54273
-  password: e5af24f5-7b58-4a53-a87b-ab6bb0551ec6
-  udp: true
-  sni: www.bing.com
   skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: 03c8e103-13b2-41d5-b163-ad286b6b5bbe
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: e4b58bff-4bf5-411f-8747-f04cc1aa8624
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: 95733fe1-fbe9-4c9a-9c12-cd0366e1a185
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: 171fb23a-a127-4508-8802-beb3b0de284a
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: 73c86050-cbe0-4f17-bae3-bbf20855d24a
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: ae0d68c6-cae5-4352-aa55-1b18a5c0f7c4
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: f081c859-e128-4607-8486-502c3fca3bf6
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: e681f591-3ae9-4d9e-bf56-5da773922ba8
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: 257ac266-4ca7-44c4-bf69-dbdb50a35f1d
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: bc47a39c-1436-48e5-b1ab-345c61de34d6
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54357
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54357
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54258
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54261
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54261
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54273
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
+- name: '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  password: bb2dc5b3-fe88-4e7d-9ae7-47a110490fbf
+  port: 54273
+  server: ptxlv6-02.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: trojan
+  udp: true
 - name: '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
@@ -1869,22 +1861,6 @@ proxies:
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
-- name: '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
-  type: anytls
-  server: hkv6.7r.fit
-  port: 16890
-  password: 33910f97-f994-4fe4-9504-aba27253da6f
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
-- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
-  type: anytls
-  server: mo.5yu.online
-  port: 16890
-  password: 33910f97-f994-4fe4-9504-aba27253da6f
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
 - name: '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
   type: vless
   server: cf.os.kg
@@ -1980,38 +1956,6 @@ proxies:
     protocol: h2mux
     max-connections: 100
     padding: true
-- name: '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
-  type: anytls
-  server: aws.v4.zh.kg
-  port: 44698
-  password: 33910f97-f994-4fe4-9504-aba27253da6f
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
-- name: '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
-  type: anytls
-  server: aws.v4.zh.kg
-  port: 55285
-  password: 33910f97-f994-4fe4-9504-aba27253da6f
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
-- name: '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
-  type: anytls
-  server: hkv6.7r.fit
-  port: 16890
-  password: 57080b83-0576-489b-a7b1-8906eb469dab
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
-- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
-  type: anytls
-  server: mo.5yu.online
-  port: 16890
-  password: 57080b83-0576-489b-a7b1-8906eb469dab
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
 - name: '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
   type: vless
   server: cf.os.kg
@@ -2107,22 +2051,6 @@ proxies:
     protocol: h2mux
     max-connections: 100
     padding: true
-- name: '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
-  type: anytls
-  server: aws.v4.zh.kg
-  port: 44698
-  password: 57080b83-0576-489b-a7b1-8906eb469dab
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
-- name: '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
-  type: anytls
-  server: aws.v4.zh.kg
-  port: 55285
-  password: 57080b83-0576-489b-a7b1-8906eb469dab
-  udp: true
-  sni: updates.cdn-apple.com
-  skip-cert-verify: true
 - name: '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本1-Ver.7'
   server: 2irtae1-g06.jp01-nn-vm0.entry.fr0528.art
   port: 21586
@@ -9253,572 +9181,264 @@ proxies:
         path: /zones
         mode: auto
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.aTx6fTUisJV1EX492TZyxOsWZW9nKdvDsBNbGvbkn2k
-- name: '[🦀 Rust Cloud] 香港1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64011
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 香港1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65011
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 香港2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64012
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 香港2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65012
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 香港3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64011
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 香港3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65011
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 香港4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64012
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 香港4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65012
   cipher: 2022-blake3-aes-256-gcm
   password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 新加坡1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64021
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 新加坡1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65021
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 新加坡2|AnyTLS[1x]'
-  type: ss
-  server: cccct.284.pics
-  port: 64022
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 新加坡2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65022
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 新加坡3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64021
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 新加坡3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65021
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 新加坡4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64022
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 新加坡4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65022
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 日本1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64031
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 日本1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65031
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 日本2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64032
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 日本2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65032
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 日本3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64031
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 日本3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65031
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 日本4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64032
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 日本4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65032
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 美国1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64041
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 美国1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65041
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 美国2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64042
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 美国2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65042
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 美国3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64041
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 美国3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65041
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 美国4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64042
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 美国4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65042
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 韩国1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64051
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 韩国1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65051
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 韩国2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64052
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 韩国2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65052
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 韩国3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64051
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 韩国3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65051
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 韩国4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64052
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 韩国4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65052
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 越南1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64061
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 越南1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65061
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 越南2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64062
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 越南2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65062
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 越南3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64061
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 越南3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65061
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 越南4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64062
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 越南4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65062
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 土耳其1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64071
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 土耳其1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65071
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 土耳其2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64072
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 土耳其2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65072
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 土耳其3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64071
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 土耳其3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65071
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 土耳其4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64072
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 土耳其4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65072
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 法国1|AnyTLS[1x]'
-  type: ss
-  server: jjjjp.358.onl
-  port: 64081
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 法国1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65081
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 法国2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64082
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 法国2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65082
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 法国3|AnyTLS[1x]'
-  type: ss
-  server: jjjjp.358.onl
-  port: 64081
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 法国3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65081
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 法国4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64082
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 法国4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65082
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 德国1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64091
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 德国1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65091
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 德国2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64092
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 德国2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65092
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 德国3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64091
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 德国3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65091
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 德国4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64092
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 德国4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65092
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 英国1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64101
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 英国1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65101
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 英国2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64102
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 英国2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65102
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 英国3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64101
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 英国3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65101
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 英国4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64102
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 英国4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65102
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 泰国1|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64111
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 泰国1|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65111
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 泰国2|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64112
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 泰国2|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65112
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 泰国3|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64111
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 泰国3|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
   port: 65111
   cipher: 2022-blake3-aes-256-gcm
   password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MjIwOGRiNjEtZGYwNC00MjVjLWJlNmQtNzU0MDNiMjA=
-- name: '[🦀 Rust Cloud] 泰国4|AnyTLS[1x]'
-  type: ss
-  server: jx-1.44661573.xyz
-  port: 64112
-  password: 2208db61-df04-425c-be6d-75403b205c11
-  sni: 9527app.site
-  skip-cert-verify: true
 - name: '[🦀 Rust Cloud] 泰国4|Shadowsocks[1x]'
   type: ss
   server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.355cd.org
@@ -9829,7 +9449,7 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ⚡ 智能优选 (自动测速)
+  - ⚡ 自动优选 (延迟最低·全域最快)
   - 🤖 Google & AI 专线
   - ⚡ 宝可梦专区
   - 🏝️ 布吉岛专区
@@ -9837,7 +9457,6 @@ proxy-groups:
   - ☁️ Free Cloud专区
   - 🦀 Rust Cloud专区
   - 🛡️ 永久保底专区
-  - ⚖️ LawTools专区
   - 🇲🇴 澳门专区 (红杏出墙澳门)
   - 🇭🇰 香港专区
   - 🇯🇵 日本专区
@@ -9845,24 +9464,6 @@ proxy-groups:
   - 🇨🇦 加拿大专区
   - 🇺🇸 美国专区
   - DIRECT
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -9871,24 +9472,6 @@ proxy-groups:
   - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -9897,24 +9480,6 @@ proxy-groups:
   - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -9923,24 +9488,14 @@ proxy-groups:
   - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -9949,6 +9504,86 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
@@ -10004,24 +9639,16 @@ proxy-groups:
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
   - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
   - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
   - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
-  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
   - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
   - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
   - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本1-Ver.7'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本2-Ver.8'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本3-Ver.7'
@@ -10138,118 +9765,56 @@ proxy-groups:
   - '[☁️ Free Cloud·2号] 荷兰2-10Gbps-电信优化-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 荷兰3-10Gbps-电信优化-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 爱尔兰1-电信优化-高性能-X | 0x'
-  - '[🦀 Rust Cloud] 香港1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国4|Shadowsocks[1x]'
-- name: ⚡ 智能优选 (自动测速)
+- name: ⚡ 自动优选 (延迟最低·全域最快)
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 3600
+  interval: 300
   tolerance: 50
   proxies:
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10258,24 +9823,6 @@ proxy-groups:
   - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10284,24 +9831,6 @@ proxy-groups:
   - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10310,24 +9839,14 @@ proxy-groups:
   - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10336,6 +9855,86 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
@@ -10391,24 +9990,16 @@ proxy-groups:
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
   - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
   - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
   - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
-  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
   - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
   - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
   - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本1-Ver.7'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本2-Ver.8'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本3-Ver.7'
@@ -10525,153 +10116,76 @@ proxy-groups:
   - '[☁️ Free Cloud·2号] 荷兰2-10Gbps-电信优化-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 荷兰3-10Gbps-电信优化-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 爱尔兰1-电信优化-高性能-X | 0x'
-  - '[🦀 Rust Cloud] 香港1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国4|Shadowsocks[1x]'
 - name: 🤖 Google & AI 专线
   type: select
   proxies:
+  - ⚡ 自动优选 (延迟最低·全域最快)
   - 🇲🇴 澳门专区 (红杏出墙澳门)
   - 🇨🇦 加拿大专区
-  - 🦀 Rust Cloud专区
-  - ⚡ 智能优选 (自动测速)
-  - ⚡ 宝可梦专区
-  - ☁️ Free Cloud专区
-  - 🚀 节点选择
+  - ⚡ 宝可梦·极速优选
+  - 🏝️ 布吉岛·极速优选
+  - ☁️ Free Cloud·极速优选
   - DIRECT
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🦀 Rust Cloud] 香港1|AnyTLS[1x]'
-  - '[🦀 Rust Cloud] 香港1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港2|AnyTLS[1x]'
-  - '[🦀 Rust Cloud] 香港2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港3|AnyTLS[1x]'
-  - '[🦀 Rust Cloud] 香港3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港4|AnyTLS[1x]'
-  - '[🦀 Rust Cloud] 香港4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡1|AnyTLS[1x]'
-  - '[🦀 Rust Cloud] 新加坡1|Shadowsocks[1x]'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
+  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
 - name: ⚡ 宝可梦专区
   type: select
   proxies:
-  - ⚡ 宝可梦·自动优选
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - ⚡ 宝可梦·极速优选
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10680,24 +10194,6 @@ proxy-groups:
   - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10706,24 +10202,6 @@ proxy-groups:
   - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10732,24 +10210,14 @@ proxy-groups:
   - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10758,30 +10226,92 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-- name: ⚡ 宝可梦·自动优选
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+- name: ⚡ 宝可梦·极速优选
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 3600
+  interval: 300
   tolerance: 50
   proxies:
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10790,24 +10320,6 @@ proxy-groups:
   - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10816,24 +10328,6 @@ proxy-groups:
   - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10842,24 +10336,14 @@ proxy-groups:
   - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
@@ -10868,10 +10352,90 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
 - name: 🏝️ 布吉岛专区
   type: select
   proxies:
-  - 🏝️ 布吉岛·自动优选
+  - 🏝️ 布吉岛·极速优选
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰003｜0.08元/G｜XHTTP H3｜'
@@ -10927,10 +10491,10 @@ proxy-groups:
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   - '[🏝️ 布吉岛_45号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-- name: 🏝️ 布吉岛·自动优选
+- name: 🏝️ 布吉岛·极速优选
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 3600
+  interval: 300
   tolerance: 50
   proxies:
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 😈英格兰002｜0.09元/G｜hy2｜'
@@ -10991,26 +10555,119 @@ proxy-groups:
 - name: 🌸 红杏出墙专区
   type: select
   proxies:
-  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
   - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
   - '[🌸 红杏出墙·1号] NL-优选01🇳🇱'
   - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
-  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
   - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
   - '[🌸 红杏出墙·2号] NL-优选01🇳🇱'
   - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
 - name: ☁️ Free Cloud专区
   type: select
+  proxies:
+  - ☁️ Free Cloud·极速优选
+  - '[☁️ Free Cloud·1号] 英国伦敦1-50G-X | 0x'
+  - '[☁️ Free Cloud·1号] 罗马尼亚1-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国西部洛杉矶1-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 爱尔兰1-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国南部达拉斯1-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国东部纽约1-X | 0x'
+  - '[☁️ Free Cloud·1号] 哥伦比亚1-X | 0x'
+  - '[☁️ Free Cloud·1号] 哥伦比亚2-X | 0x'
+  - '[☁️ Free Cloud·1号] 土耳其1-X | 0x'
+  - '[☁️ Free Cloud·1号] 新加坡1-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 香港1-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰1-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰2-10Gbps-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰3-10Gbps-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国西部洛杉矶2-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 瑞士1-X | 0x'
+  - '[☁️ Free Cloud·1号] 越南1-X | 0x'
+  - '[☁️ Free Cloud·1号] 越南2-X | 0x'
+  - '[☁️ Free Cloud·1号] 越南3-X | 0x'
+  - '[☁️ Free Cloud·1号] 马来西亚1-X | 0x'
+  - '[☁️ Free Cloud·1号] 俄罗斯-高性能1-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国1纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国2纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国3纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国4纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国1纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国2纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国3纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国4纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 英国伦敦1-移动优化-50G-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国西部洛杉矶1-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国西部洛杉矶2-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰1-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰2-10Gbps-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰3-10Gbps-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 爱尔兰1-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国1纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国2纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国3纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 德国4纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 英国伦敦1-电信优化-50G-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国西部洛杉矶1-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 美国西部洛杉矶2-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰1-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰2-10Gbps-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 荷兰3-10Gbps-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·1号] 爱尔兰1-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 英国伦敦1-50G-X | 0x'
+  - '[☁️ Free Cloud·2号] 罗马尼亚1-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国西部洛杉矶1-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 爱尔兰1-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国南部达拉斯1-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国东部纽约1-X | 0x'
+  - '[☁️ Free Cloud·2号] 哥伦比亚1-X | 0x'
+  - '[☁️ Free Cloud·2号] 哥伦比亚2-X | 0x'
+  - '[☁️ Free Cloud·2号] 土耳其1-X | 0x'
+  - '[☁️ Free Cloud·2号] 新加坡1-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 香港1-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰1-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰2-10Gbps-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰3-10Gbps-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国西部洛杉矶2-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 瑞士1-X | 0x'
+  - '[☁️ Free Cloud·2号] 越南1-X | 0x'
+  - '[☁️ Free Cloud·2号] 越南2-X | 0x'
+  - '[☁️ Free Cloud·2号] 越南3-X | 0x'
+  - '[☁️ Free Cloud·2号] 马来西亚1-X | 0x'
+  - '[☁️ Free Cloud·2号] 俄罗斯-高性能1-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国1纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国2纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国3纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国4纽伦堡-高性能1-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国1纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国2纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国3纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国4纽伦堡-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 英国伦敦1-移动优化-50G-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国西部洛杉矶1-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国西部洛杉矶2-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰1-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰2-10Gbps-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰3-10Gbps-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 爱尔兰1-移动优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国1纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国2纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国3纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 德国4纽伦堡-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 英国伦敦1-电信优化-50G-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国西部洛杉矶1-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 美国西部洛杉矶2-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰1-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰2-10Gbps-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 荷兰3-10Gbps-电信优化-高性能-X | 0x'
+  - '[☁️ Free Cloud·2号] 爱尔兰1-电信优化-高性能-X | 0x'
+- name: ☁️ Free Cloud·极速优选
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
   proxies:
   - '[☁️ Free Cloud·1号] 英国伦敦1-50G-X | 0x'
   - '[☁️ Free Cloud·1号] 罗马尼亚1-X | 0x'
@@ -11109,93 +10766,49 @@ proxy-groups:
 - name: 🦀 Rust Cloud专区
   type: select
   proxies:
-  - '[🦀 Rust Cloud] 香港1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 韩国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 韩国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 越南4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 越南4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 土耳其4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 土耳其4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 法国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 法国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 德国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 德国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 英国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 英国4|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 泰国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 泰国4|Shadowsocks[1x]'
 - name: 🛡️ 永久保底专区
   type: select
@@ -11222,91 +10835,87 @@ proxy-groups:
   - '[🛡️ Knotic保底·2号] US-COV-L0-1'
   - '[🛡️ Knotic保底·2号] US-COV-V6-L0-1'
   - '[🛡️ Knotic保底·2号] US-V6-free-L0-1'
-- name: ⚖️ LawTools专区
-  type: select
-  proxies:
-  - DIRECT
 - name: 🇲🇴 澳门专区 (红杏出墙澳门)
   type: select
   proxies:
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·1号] 🇲🇴 MO-优选01🇲🇴'
-  - '[🌸 红杏出墙·1号] 🇲🇴 MO-BGP01🇲🇴'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-直连01🇲🇴「V6移动优化」'
   - '[🌸 红杏出墙·2号] 🇲🇴 MO-优选01🇲🇴'
-  - '[🌸 红杏出墙·2号] 🇲🇴 MO-BGP01🇲🇴'
 - name: 🇭🇰 香港专区
   type: select
   proxies:
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
-  - '[🌸 红杏出墙·1号] HK-直连01🇭🇰「V6移动优化」'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇭🇰【亚洲】香港02丨V6【1x】'
   - '[🌸 红杏出墙·1号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·1号] HK-优选06🇭🇰'
-  - '[🌸 红杏出墙·1号] HK-BGP05🇭🇰'
-  - '[🌸 红杏出墙·2号] HK-直连01🇭🇰「V6移动优化」'
   - '[🌸 红杏出墙·2号] HK-优选01🇭🇰'
   - '[🌸 红杏出墙·2号] HK-优选06🇭🇰'
-  - '[🌸 红杏出墙·2号] HK-BGP05🇭🇰'
   - '[☁️ Free Cloud·1号] 香港1-X | 0x'
   - '[☁️ Free Cloud·2号] 香港1-X | 0x'
-  - '[🦀 Rust Cloud] 香港1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 香港4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 香港4|Shadowsocks[1x]'
 - name: 🇯🇵 日本专区
   type: select
   proxies:
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本03丨Vless'
   - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本03丨Vless'
   - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本03丨Vless'
   - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   - '[🏝️ 布吉岛_41号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   - '[🏝️ 布吉岛_42号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
@@ -11331,60 +10940,50 @@ proxy-groups:
   - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本5-Ver.9'
   - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本6-Ver.8'
   - '[🛡️ iKuuu保底·2号] 🇯🇵 免费-日本7-Ver.2'
-  - '[🦀 Rust Cloud] 日本1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 日本4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 日本4|Shadowsocks[1x]'
 - name: 🇸🇬 新加坡专区
   type: select
   proxies:
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
   - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
   - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
   - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡01丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
-  - '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡02丨Vless'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡07丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇸🇬【亚洲】新加坡08丨V6【1x】'
   - '[🛡️ Knotic保底·1号] SG-V6-L1-2'
   - '[🛡️ Knotic保底·2号] SG-V6-L1-2'
   - '[☁️ Free Cloud·1号] 新加坡1-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 新加坡1-高性能-X | 0x'
-  - '[🦀 Rust Cloud] 新加坡1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 新加坡4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 新加坡4|Shadowsocks[1x]'
 - name: 🇨🇦 加拿大专区
   type: select
@@ -11447,30 +11046,36 @@ proxy-groups:
 - name: 🇺🇸 美国专区
   type: select
   proxies:
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
-  - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·06号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·07号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·08号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·09号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·10号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·11号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·12号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·13号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·14号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
+  - '[⚡ 宝可梦·15号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
   - '[🌸 红杏出墙·1号] US-优选01🇺🇸'
   - '[🌸 红杏出墙·2号] US-优选01🇺🇸'
   - '[🛡️ Knotic保底·1号] US-COV-L0-1'
@@ -11495,13 +11100,9 @@ proxy-groups:
   - '[☁️ Free Cloud·2号] 美国西部洛杉矶2-移动优化-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 美国西部洛杉矶1-电信优化-高性能-X | 0x'
   - '[☁️ Free Cloud·2号] 美国西部洛杉矶2-电信优化-高性能-X | 0x'
-  - '[🦀 Rust Cloud] 美国1|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国1|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国2|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国2|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国3|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国3|Shadowsocks[1x]'
-  - '[🦀 Rust Cloud] 美国4|AnyTLS[1x]'
   - '[🦀 Rust Cloud] 美国4|Shadowsocks[1x]'
 rules:
 - AND,((DST-PORT,443),(NETWORK,UDP)),REJECT
