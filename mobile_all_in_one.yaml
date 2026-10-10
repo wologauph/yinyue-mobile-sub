@@ -29,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: 209.9.200.33
   port: 20000
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -47,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -55,12 +55,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
-  uuid: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  uuid: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -76,7 +76,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
@@ -86,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -96,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -106,12 +106,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
-  uuid: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  uuid: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -122,7 +122,7 @@ proxies:
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
-  uuid: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  uuid: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -133,7 +133,7 @@ proxies:
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
-  uuid: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  uuid: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -144,7 +144,7 @@ proxies:
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
-  uuid: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  uuid: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -155,7 +155,7 @@ proxies:
   type: vless
   server: vless-jp03.waimaosass.icu
   port: 50131
-  uuid: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  uuid: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -171,7 +171,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
@@ -181,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -189,7 +189,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -197,12 +197,12 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
 - name: '[⚡ 宝可梦·01号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -210,7 +210,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -218,7 +218,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -226,7 +226,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -234,7 +234,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -242,7 +242,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -250,7 +250,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -258,7 +258,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
-  password: 57e9fbf2-b852-4ecb-9eaf-9a5cf8b7aef2
+  password: 496c4fde-f938-4f93-b550-728a1a173859
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -271,7 +271,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: 209.9.200.33
   port: 20000
@@ -281,7 +281,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -289,7 +289,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -297,12 +297,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
-  uuid: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  uuid: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -318,7 +318,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
@@ -328,7 +328,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -338,7 +338,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -348,12 +348,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
-  uuid: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  uuid: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -364,7 +364,7 @@ proxies:
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
-  uuid: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  uuid: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -375,7 +375,7 @@ proxies:
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
-  uuid: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  uuid: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -386,7 +386,7 @@ proxies:
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
-  uuid: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  uuid: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -397,7 +397,7 @@ proxies:
   type: vless
   server: vless-jp03.waimaosass.icu
   port: 50131
-  uuid: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  uuid: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -413,7 +413,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
@@ -423,7 +423,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -431,7 +431,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -439,12 +439,12 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
 - name: '[⚡ 宝可梦·02号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -452,7 +452,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -460,7 +460,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -468,7 +468,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -476,7 +476,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -484,7 +484,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -492,7 +492,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -500,7 +500,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
-  password: 80f438ca-c3a0-43d4-b0ef-91a0927cbe19
+  password: 806fba88-1ca4-43d5-913e-cc3a55b3a5cf
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -513,7 +513,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: 209.9.200.33
   port: 20000
@@ -523,7 +523,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -531,7 +531,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -539,12 +539,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
-  uuid: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  uuid: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -560,7 +560,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
@@ -570,7 +570,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -580,7 +580,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -590,12 +590,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
-  uuid: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  uuid: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -606,7 +606,7 @@ proxies:
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
-  uuid: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  uuid: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -617,7 +617,7 @@ proxies:
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
-  uuid: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  uuid: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -628,7 +628,7 @@ proxies:
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
-  uuid: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  uuid: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -639,7 +639,7 @@ proxies:
   type: vless
   server: vless-jp03.waimaosass.icu
   port: 50131
-  uuid: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  uuid: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -655,7 +655,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
@@ -665,7 +665,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -673,7 +673,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -681,12 +681,12 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
 - name: '[⚡ 宝可梦·03号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -694,7 +694,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -702,7 +702,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -710,7 +710,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -718,7 +718,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -726,7 +726,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -734,7 +734,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -742,7 +742,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
-  password: fd6bddf0-cb24-421f-aa3b-4df0520c456f
+  password: c5d4aab4-3d00-416e-b346-337924aaa55c
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -755,7 +755,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: 209.9.200.33
   port: 20000
@@ -765,7 +765,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -773,7 +773,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -781,12 +781,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
-  uuid: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  uuid: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -802,7 +802,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
@@ -812,7 +812,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -822,7 +822,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -832,12 +832,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
-  uuid: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  uuid: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -848,7 +848,7 @@ proxies:
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
-  uuid: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  uuid: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -859,7 +859,7 @@ proxies:
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
-  uuid: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  uuid: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -870,7 +870,7 @@ proxies:
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
-  uuid: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  uuid: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -881,7 +881,7 @@ proxies:
   type: vless
   server: vless-jp03.waimaosass.icu
   port: 50131
-  uuid: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  uuid: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -897,7 +897,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
@@ -907,7 +907,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -915,7 +915,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -923,12 +923,12 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
 - name: '[⚡ 宝可梦·04号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -936,7 +936,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -944,7 +944,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -952,7 +952,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -960,7 +960,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -968,7 +968,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -976,7 +976,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -984,7 +984,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
-  password: 6ba10f17-aafc-48cc-b7c0-892edf7fe4cc
+  password: b6d1fdd4-7fc2-43ec-9494-1eb48272e8e8
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -997,7 +997,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港02丨直连'
   server: 209.9.200.33
   port: 20000
@@ -1007,7 +1007,7 @@ proxies:
   skip-cert-verify: true
   sni: d1.awsstatic.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港03丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -1015,7 +1015,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港04丨直连'
   server: hk01.poke-mon.xyz
   port: 8443
@@ -1023,12 +1023,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港05原生丨移动直连'
   type: vless
   server: 152.175.28.50
   port: 50133
-  uuid: e3894fab-0c6b-435f-8d39-0e4d01812447
+  uuid: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -1044,7 +1044,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡02丨直连'
   server: sg01-hy.poke-mon.xyz
   port: 20000
@@ -1054,7 +1054,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡03丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -1064,7 +1064,7 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇸🇬【亚洲】新加坡04丨直连'
   server: sg02-hy.poke-mon.xyz
   port: 20000
@@ -1074,12 +1074,12 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇸🇬 【亚洲】新加坡01丨Vless'
   type: vless
   server: vless-sg01.waimaosass.icu
   port: 50131
-  uuid: e3894fab-0c6b-435f-8d39-0e4d01812447
+  uuid: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -1090,7 +1090,7 @@ proxies:
   type: vless
   server: vless-sg02.waimaosass.icu
   port: 50131
-  uuid: e3894fab-0c6b-435f-8d39-0e4d01812447
+  uuid: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -1101,7 +1101,7 @@ proxies:
   type: vless
   server: vless-jp01.waimaosass.icu
   port: 50131
-  uuid: e3894fab-0c6b-435f-8d39-0e4d01812447
+  uuid: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -1112,7 +1112,7 @@ proxies:
   type: vless
   server: vless-jp02.waimaosass.icu
   port: 50131
-  uuid: e3894fab-0c6b-435f-8d39-0e4d01812447
+  uuid: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -1123,7 +1123,7 @@ proxies:
   type: vless
   server: vless-jp03.waimaosass.icu
   port: 50131
-  uuid: e3894fab-0c6b-435f-8d39-0e4d01812447
+  uuid: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   flow: xtls-rprx-vision
   tls: true
@@ -1139,7 +1139,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02原生丨直连【2x】'
   server: us01zl.poke-mon.xyz
   port: 20000
@@ -1149,7 +1149,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国03原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -1157,7 +1157,7 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国04原生丨直连【2x】'
   server: us02zl.poke-mon.xyz
   port: 443
@@ -1165,12 +1165,12 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
 - name: '[⚡ 宝可梦·05号(60G)] 🇭🇰【亚洲】香港01丨V6【1x】'
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54357
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -1178,7 +1178,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54357
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.lamer.com.hk
   skip-cert-verify: true
@@ -1186,7 +1186,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54258
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -1194,7 +1194,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54258
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -1202,7 +1202,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54261
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -1210,7 +1210,7 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54261
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -1218,7 +1218,7 @@ proxies:
   type: trojan
   server: ptxlv6-01.waimaosass.icu
   port: 54273
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
@@ -1226,25 +1226,25 @@ proxies:
   type: trojan
   server: ptxlv6-02.waimaosass.icu
   port: 54273
-  password: e3894fab-0c6b-435f-8d39-0e4d01812447
+  password: 9237b771-7790-4040-b712-5bed2bec738d
   udp: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
   port: 19443
   up: 100
   down: 1000
-  password: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  password: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   sni: uk-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   network: xhttp
   tls: true
   servername: uk-003.xiaoxiaobujidao.xyz
@@ -1255,12 +1255,12 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   network: xhttp
   tls: true
   servername: uk-003.xiaoxiaobujidao.xyz
@@ -1271,12 +1271,12 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   network: xhttp
   tls: true
   servername: ca-001.xiaoxiaobujidao.xyz
@@ -1287,12 +1287,12 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   network: xhttp
   tls: true
   servername: ca-001.xiaoxiaobujidao.xyz
@@ -1303,22 +1303,22 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
   type: hysteria2
   server: ca-002.xiaoxiaobujidao.xyz
   port: 8443
   up: 100
   down: 200
-  password: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  password: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   sni: ca-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
   type: vless
   server: ca-003.xiaoxiaobujidao.xyz
   port: 8443
   flow: xtls-rprx-vision
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   alterId: 0
   cipher: auto
   network: tcp
@@ -1336,22 +1336,22 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
   type: hysteria2
   server: fr-002.xiaoxiaobujidao.xyz
   port: 443
   up: 100
   down: 200
-  password: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  password: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   sni: fr-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   type: vless
   server: fr-001.xiaoxiaobujidao.xyz
   port: 443
   flow: xtls-rprx-vision
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   alterId: 0
   cipher: auto
   network: tcp
@@ -1369,13 +1369,13 @@ proxies:
     public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   type: vless
   server: tk-X07.xiaoxiaobujidao.xyz
   port: 12443
   flow: xtls-rprx-vision
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   alterId: 0
   cipher: auto
   network: tcp
@@ -1393,13 +1393,13 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   type: vless
   server: tk-X06.xiaoxiaobujidao.xyz
   port: 18443
   flow: xtls-rprx-vision
   udp: true
-  uuid: 094c70d2-0a0e-4dd8-b610-69bf71fbad3d
+  uuid: 8ba13f3b-a65b-4340-ad68-70bbf9f047b3
   alterId: 0
   cipher: auto
   network: tcp
@@ -1417,21 +1417,21 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
   port: 19443
   up: 100
   down: 1000
-  password: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  password: a6383394-0928-4b30-a1fe-53bbf18abdfb
   sni: uk-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   network: xhttp
   tls: true
   servername: uk-003.xiaoxiaobujidao.xyz
@@ -1442,12 +1442,12 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   network: xhttp
   tls: true
   servername: uk-003.xiaoxiaobujidao.xyz
@@ -1458,12 +1458,12 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   network: xhttp
   tls: true
   servername: ca-001.xiaoxiaobujidao.xyz
@@ -1474,12 +1474,12 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   network: xhttp
   tls: true
   servername: ca-001.xiaoxiaobujidao.xyz
@@ -1490,22 +1490,22 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
   type: hysteria2
   server: ca-002.xiaoxiaobujidao.xyz
   port: 8443
   up: 100
   down: 200
-  password: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  password: a6383394-0928-4b30-a1fe-53bbf18abdfb
   sni: ca-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
   type: vless
   server: ca-003.xiaoxiaobujidao.xyz
   port: 8443
   flow: xtls-rprx-vision
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   alterId: 0
   cipher: auto
   network: tcp
@@ -1523,22 +1523,22 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
   type: hysteria2
   server: fr-002.xiaoxiaobujidao.xyz
   port: 443
   up: 100
   down: 200
-  password: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  password: a6383394-0928-4b30-a1fe-53bbf18abdfb
   sni: fr-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   type: vless
   server: fr-001.xiaoxiaobujidao.xyz
   port: 443
   flow: xtls-rprx-vision
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   alterId: 0
   cipher: auto
   network: tcp
@@ -1556,13 +1556,13 @@ proxies:
     public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   type: vless
   server: tk-X07.xiaoxiaobujidao.xyz
   port: 12443
   flow: xtls-rprx-vision
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   alterId: 0
   cipher: auto
   network: tcp
@@ -1580,13 +1580,13 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   type: vless
   server: tk-X06.xiaoxiaobujidao.xyz
   port: 18443
   flow: xtls-rprx-vision
   udp: true
-  uuid: ce2e7644-fa43-4349-9ba7-5afaf36b4f29
+  uuid: a6383394-0928-4b30-a1fe-53bbf18abdfb
   alterId: 0
   cipher: auto
   network: tcp
@@ -1604,21 +1604,21 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
   type: hysteria2
   server: uk-002.xiaoxiaobujidao.xyz
   port: 19443
   up: 100
   down: 1000
-  password: d7803537-872e-4f95-bd40-76b14a17e663
+  password: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   sni: uk-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   network: xhttp
   tls: true
   servername: uk-003.xiaoxiaobujidao.xyz
@@ -1629,12 +1629,12 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
   type: vless
   server: uk-003.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   network: xhttp
   tls: true
   servername: uk-003.xiaoxiaobujidao.xyz
@@ -1645,12 +1645,12 @@ proxies:
     path: /bujidao
     host: uk-003.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   network: xhttp
   tls: true
   servername: ca-001.xiaoxiaobujidao.xyz
@@ -1661,12 +1661,12 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
   type: vless
   server: ca-001.xiaoxiaobujidao.xyz
   port: 443
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   network: xhttp
   tls: true
   servername: ca-001.xiaoxiaobujidao.xyz
@@ -1677,22 +1677,22 @@ proxies:
     path: /bujidao
     host: ca-001.xiaoxiaobujidao.xyz
     mode: packet-up
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
   type: hysteria2
   server: ca-002.xiaoxiaobujidao.xyz
   port: 8443
   up: 100
   down: 200
-  password: d7803537-872e-4f95-bd40-76b14a17e663
+  password: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   sni: ca-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
   type: vless
   server: ca-003.xiaoxiaobujidao.xyz
   port: 8443
   flow: xtls-rprx-vision
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   alterId: 0
   cipher: auto
   network: tcp
@@ -1710,22 +1710,22 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
   type: hysteria2
   server: fr-002.xiaoxiaobujidao.xyz
   port: 443
   up: 100
   down: 200
-  password: d7803537-872e-4f95-bd40-76b14a17e663
+  password: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   sni: fr-002.xiaoxiaobujidao.xyz
   skip-cert-verify: false
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
   type: vless
   server: fr-001.xiaoxiaobujidao.xyz
   port: 443
   flow: xtls-rprx-vision
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   alterId: 0
   cipher: auto
   network: tcp
@@ -1743,13 +1743,13 @@ proxies:
     public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
   type: vless
   server: tk-X07.xiaoxiaobujidao.xyz
   port: 12443
   flow: xtls-rprx-vision
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   alterId: 0
   cipher: auto
   network: tcp
@@ -1767,387 +1767,13 @@ proxies:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
     short-id: ''
     support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+- name: '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   type: vless
   server: tk-X06.xiaoxiaobujidao.xyz
   port: 18443
   flow: xtls-rprx-vision
   udp: true
-  uuid: d7803537-872e-4f95-bd40-76b14a17e663
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubu
-    headers:
-      Host: tk-X06.xiaoxiaobujidao.xyz
-  ws-path: /bubu
-  ws-headers:
-    Host: tk-X06.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  type: hysteria2
-  server: uk-002.xiaoxiaobujidao.xyz
-  port: 19443
-  up: 100
-  down: 1000
-  password: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  sni: uk-002.xiaoxiaobujidao.xyz
-  skip-cert-verify: false
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  type: vless
-  server: uk-003.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  network: xhttp
-  tls: true
-  servername: uk-003.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /bujidao
-    host: uk-003.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  type: vless
-  server: uk-003.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  network: xhttp
-  tls: true
-  servername: uk-003.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  xhttp-opts:
-    path: /bujidao
-    host: uk-003.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  type: vless
-  server: ca-001.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  network: xhttp
-  tls: true
-  servername: ca-001.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /bujidao
-    host: ca-001.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  type: vless
-  server: ca-001.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  network: xhttp
-  tls: true
-  servername: ca-001.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  xhttp-opts:
-    path: /bujidao
-    host: ca-001.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  type: hysteria2
-  server: ca-002.xiaoxiaobujidao.xyz
-  port: 8443
-  up: 100
-  down: 200
-  password: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  sni: ca-002.xiaoxiaobujidao.xyz
-  skip-cert-verify: false
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  type: vless
-  server: ca-003.xiaoxiaobujidao.xyz
-  port: 8443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: ca-003.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: ca-003.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  type: hysteria2
-  server: fr-002.xiaoxiaobujidao.xyz
-  port: 443
-  up: 100
-  down: 200
-  password: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  sni: fr-002.xiaoxiaobujidao.xyz
-  skip-cert-verify: false
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  type: vless
-  server: fr-001.xiaoxiaobujidao.xyz
-  port: 443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: fr-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: fr-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  type: vless
-  server: tk-X07.xiaoxiaobujidao.xyz
-  port: 12443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: tk-X07.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: tk-X07.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  type: vless
-  server: tk-X06.xiaoxiaobujidao.xyz
-  port: 18443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0bb2472-d218-4ea9-99ac-4e88b53e9329
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubu
-    headers:
-      Host: tk-X06.xiaoxiaobujidao.xyz
-  ws-path: /bubu
-  ws-headers:
-    Host: tk-X06.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  type: hysteria2
-  server: uk-002.xiaoxiaobujidao.xyz
-  port: 19443
-  up: 100
-  down: 1000
-  password: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  sni: uk-002.xiaoxiaobujidao.xyz
-  skip-cert-verify: false
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  type: vless
-  server: uk-003.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  network: xhttp
-  tls: true
-  servername: uk-003.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /bujidao
-    host: uk-003.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  type: vless
-  server: uk-003.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  network: xhttp
-  tls: true
-  servername: uk-003.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  xhttp-opts:
-    path: /bujidao
-    host: uk-003.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  type: vless
-  server: ca-001.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  network: xhttp
-  tls: true
-  servername: ca-001.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /bujidao
-    host: ca-001.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  type: vless
-  server: ca-001.xiaoxiaobujidao.xyz
-  port: 443
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  network: xhttp
-  tls: true
-  servername: ca-001.xiaoxiaobujidao.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  xhttp-opts:
-    path: /bujidao
-    host: ca-001.xiaoxiaobujidao.xyz
-    mode: packet-up
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  type: hysteria2
-  server: ca-002.xiaoxiaobujidao.xyz
-  port: 8443
-  up: 100
-  down: 200
-  password: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  sni: ca-002.xiaoxiaobujidao.xyz
-  skip-cert-verify: false
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  type: vless
-  server: ca-003.xiaoxiaobujidao.xyz
-  port: 8443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: ca-003.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: ca-003.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  type: hysteria2
-  server: fr-002.xiaoxiaobujidao.xyz
-  port: 443
-  up: 100
-  down: 200
-  password: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  sni: fr-002.xiaoxiaobujidao.xyz
-  skip-cert-verify: false
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  type: vless
-  server: fr-001.xiaoxiaobujidao.xyz
-  port: 443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bujidao
-    headers:
-      Host: fr-001.xiaoxiaobujidao.xyz
-  ws-path: /bujidao
-  ws-headers:
-    Host: fr-001.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vMHW4_fx7bd_4bFZN9ecx58xSjv6SLg0wRYrdI62yUo
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  type: vless
-  server: tk-X07.xiaoxiaobujidao.xyz
-  port: 12443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-opts:
-    path: /bubudao
-    headers:
-      Host: tk-X07.xiaoxiaobujidao.xyz
-  ws-path: /bubudao
-  ws-headers:
-    Host: tk-X07.xiaoxiaobujidao.xyz
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
-    short-id: ''
-    support-x25519mlkem768: true
-- name: '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  type: vless
-  server: tk-X06.xiaoxiaobujidao.xyz
-  port: 18443
-  flow: xtls-rprx-vision
-  udp: true
-  uuid: d0a8a691-f10c-47c3-bd34-97ab8984a1ed
+  uuid: 40b2a12c-f9d5-44fb-a5fc-e5b3c43a6876
   alterId: 0
   cipher: auto
   network: tcp
@@ -5598,14 +5224,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.aTx6fTUisJV1EX492TZyxOsWZW9nKdvDsBNbGvbkn2k
 - name: '[Free Cloud·02号] 距离下次重置剩余：22 天'
   type: vless
-  server: 94e5e387.bilibiliapp.cn
+  server: 0291bd89.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 932bcd4a.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  servername: b245d5ef.m3u8.dsicbuygd.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -5656,14 +5282,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: d56ec412.bilibiliapp.cn
+      address: 2596369f.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 70ae5f8d.acg.sacseda.tv.acccvawebsa.pp.ua
+        serverName: 2a71a197.acg.sacseda.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -5671,14 +5297,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
 - name: '[Free Cloud·02号] 英国伦敦1-50G-X | 0x'
   type: vless
-  server: 6225993f.bilibiliapp.cn
+  server: e80317b3.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: bde73d4a.m3u8.dsicbuygd.pay.cfcndns.pp.ua
+  servername: c1d3f4f9.m3u8.dsicbuygd.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -5729,14 +5355,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: befd2a04.bilibiliapp.cn
+      address: 49094420.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 664236ae.acg.sacseda.tv.acccvawebsa.pp.ua
+        serverName: 35af131f.acg.sacseda.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -5744,14 +5370,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.o20rq91WYjorNmsatwvkyjIQaD8ItB_MQuDFzjaXSUk
 - name: '[Free Cloud·02号] 美国西部洛杉矶1-高性能-X | 0x'
   type: vless
-  server: 28709a30.bilibiliapp.cn
+  server: 11ee41a3.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 0e2d0372.m3u8.laacsa.pay.cfcndns.pp.ua
+  servername: 0d0a0ca4.m3u8.laacsa.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -5802,14 +5428,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: e046875e.bilibiliapp.cn
+      address: e7658b24.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 5561b5de.acg.adlwic.tv.acccvawebsa.pp.ua
+        serverName: daf1cf69.acg.adlwic.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -5817,14 +5443,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.-XMpE73LfZHVP2Fa_VV980VFCNlm-8Lx8ygpqk9GzEI
 - name: '[Free Cloud·02号] 爱尔兰1-高性能-X | 0x'
   type: vless
-  server: e6b4ea87.bilibiliapp.cn
+  server: ecb96502.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: dfde561d.m3u8.aiacgaca.pay.cfcndns.pp.ua
+  servername: 41ff674e.m3u8.aiacgaca.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -5875,14 +5501,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 848f494f.bilibiliapp.cn
+      address: a725bfe4.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 04179d53.acg.aieraca.tv.acccvawebsa.pp.ua
+        serverName: 77be5f2f.acg.aieraca.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -5890,14 +5516,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.aTx6fTUisJV1EX492TZyxOsWZW9nKdvDsBNbGvbkn2k
 - name: '[Free Cloud·02号] 美国南部达拉斯1-高性能-X | 0x'
   type: vless
-  server: baff8478.bilibiliapp.cn
+  server: 10d181f2.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 6058bcca.m3u8.dalsusa.pay.cfcndns.pp.ua
+  servername: 6dbf2501.m3u8.dalsusa.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -5948,14 +5574,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 823b320e.bilibiliapp.cn
+      address: 51030284.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 949d0902.acg.dalsusasa.tv.acccvawebsa.pp.ua
+        serverName: 010142cf.acg.dalsusasa.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -5963,14 +5589,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.qU-A8IR52WCwvyjMa_mXebKGCKjE7AqH9QN0MG1ue34
 - name: '[Free Cloud·02号] 美国东部纽约1-X | 0x'
   type: vless
-  server: 90c71d10.bilibiliapp.cn
+  server: fbb6d736.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 29330ed9.m3u8.acgadjc.pay.cfcndns.pp.ua
+  servername: 486c1c12.m3u8.acgadjc.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6021,14 +5647,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 05aad2f2.bilibiliapp.cn
+      address: 323675a4.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 88d10030.acg.acgisaac.tv.acccvawebsa.pp.ua
+        serverName: db3fe3b3.acg.acgisaac.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6036,14 +5662,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.CQsyEyLlBhdRTEs9124YrBcfIXVmHGHcSMX-FS6HWiM
 - name: '[Free Cloud·02号] 哥伦比亚1-X | 0x'
   type: vless
-  server: 1650dfd1.bilibiliapp.cn
+  server: ffaf9210.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: a3d91783.m3u8.glbysada.pay.cfcndns.pp.ua
+  servername: ce47026a.m3u8.glbysada.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6094,14 +5720,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 37a50ab4.bilibiliapp.cn
+      address: 2a037712.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: ec8ff315.acg.glbayda.tv.acccvawebsa.pp.ua
+        serverName: 276c3de0.acg.glbayda.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6109,14 +5735,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.XO9j0Lz5sBjux0QHmIe-_yaEjg94KZqS-fm4Lbm-OEk
 - name: '[Free Cloud·02号] 哥伦比亚2-X | 0x'
   type: vless
-  server: 899c5876.bilibiliapp.cn
+  server: d47251e0.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 6f42fe0a.m3u8.gsdnacga.pay.cfcndns.pp.ua
+  servername: c286e176.m3u8.gsdnacga.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6167,14 +5793,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: ba7cc612.bilibiliapp.cn
+      address: 810f8312.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: d029c36f.acg.gladuab.tv.acccvawebsa.pp.ua
+        serverName: 8c154229.acg.gladuab.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6182,14 +5808,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.D-00F-Xc9hey0V5fzz_rOM7GOKn3S1ON8W17ER8WvQE
 - name: '[Free Cloud·02号] 土耳其1-X | 0x'
   type: vless
-  server: 8aa1add5.bilibiliapp.cn
+  server: 78ced8cc.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: ab167d94.m3u8.tryasiha.pay.cfcndns.pp.ua
+  servername: ac406475.m3u8.tryasiha.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6240,14 +5866,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 4b4b83a5.bilibiliapp.cn
+      address: 31033179.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: efa76b3c.acg.tcaidha.tv.acccvawebsa.pp.ua
+        serverName: 2f90dc80.acg.tcaidha.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6255,14 +5881,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.L49eRmIp5z5puS9k0rjMyWJT9Afka0uOtUN5T2F1Bkg
 - name: '[Free Cloud·02号] 新加坡1-高性能-X | 0x'
   type: vless
-  server: b430031f.bilibiliapp.cn
+  server: 93175a8a.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 8d253cb2.m3u8.sgascacg.pay.cfcndns.pp.ua
+  servername: 86e3e283.m3u8.sgascacg.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6313,14 +5939,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: aab4478a.bilibiliapp.cn
+      address: cf20c1a9.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 5d9e715b.acg.sgasdhc.tv.acccvawebsa.pp.ua
+        serverName: f45239e2.acg.sgasdhc.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6328,14 +5954,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.ftcfrMeW8BZe83oGjRMzHnCiatP89lRTLREh9JuodBc
 - name: '[Free Cloud·02号] 荷兰1-高性能-X | 0x'
   type: vless
-  server: e4411ba9.bilibiliapp.cn
+  server: 55e3201e.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 4a001d1a.m3u8.asdihcdstv.pay.cfcndns.pp.ua
+  servername: 0ce0f465.m3u8.asdihcdstv.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6386,14 +6012,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: df646354.bilibiliapp.cn
+      address: 6813de87.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 59bb6625.acg.tvasdn.tv.acccvawebsa.pp.ua
+        serverName: 1549f6cb.acg.tvasdn.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6401,14 +6027,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.LC8_lxMs0AojzjE0rJXGXowPEH9wjpJ21j4V0j1lDEo
 - name: '[Free Cloud·02号] 荷兰2-10Gbps-高性能-X | 0x'
   type: vless
-  server: ea79db62.bilibiliapp.cn
+  server: 65142acd.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: b68c1233.m3u8.nsjckacgaf.pay.cfcndns.pp.ua
+  servername: 9dc2711d.m3u8.nsjckacgaf.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6459,14 +6085,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: e651ac52.bilibiliapp.cn
+      address: 416e6582.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: b05d60b0.acg.sxbcksava.tv.acccvawebsa.pp.ua
+        serverName: 96849cc2.acg.sxbcksava.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6474,14 +6100,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.YKD0hsHYArWaBHTktolVE7TcGIuH9IFhy8VM7L6Dpi4
 - name: '[Free Cloud·02号] 荷兰3-10Gbps-高性能-X | 0x'
   type: vless
-  server: 0a67905b.bilibiliapp.cn
+  server: bafdff8e.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 9f2248dd.m3u8.acgsadoiha.pay.cfcndns.pp.ua
+  servername: 5ce6b7b1.m3u8.acgsadoiha.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6532,14 +6158,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 86908ff2.bilibiliapp.cn
+      address: 90ad1d34.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: dd2c0c2d.acg.ascgdvoiha.tv.acccvawebsa.pp.ua
+        serverName: 5f2ace95.acg.ascgdvoiha.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6547,14 +6173,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.VbUroH4UTxHIe1ASff3nGtqp0ya_Qz2cv2qHmFT06ys
 - name: '[Free Cloud·02号] 美国西部洛杉矶2-高性能-10Gbps-X | 0x'
   type: vless
-  server: 5652a8e7.bilibiliapp.cn
+  server: 8f3525c1.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: b690a554.m3u8.csabds.pay.cfcndns.pp.ua
+  servername: 45b9bda8.m3u8.csabds.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6605,14 +6231,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: e873620a.bilibiliapp.cn
+      address: 975bdda8.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: d64fe8a2.acg.sdhfuic.tv.acccvawebsa.pp.ua
+        serverName: 1cd14afc.acg.sdhfuic.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6620,14 +6246,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.zD4NXLQn5hNpcFEq8Dd1eyYHn21CXLATo99gXpZKzVg
 - name: '[Free Cloud·02号] 瑞士1-X | 0x'
   type: vless
-  server: d81e6f75.bilibiliapp.cn
+  server: 77523564.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: a5662320.m3u8.chcauib.pay.cfcndns.pp.ua
+  servername: 0502f0ab.m3u8.chcauib.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6678,14 +6304,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 82dfaa1f.bilibiliapp.cn
+      address: 2c8d4ca3.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 6d3c972e.acg.chartnv.tv.acccvawebsa.pp.ua
+        serverName: 43ed89d7.acg.chartnv.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6693,14 +6319,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.r0GHkKItWBaa1PUy0tN6uBX3xozktLQIs6Vr1tbc0X0
 - name: '[Free Cloud·02号] 越南1-X | 0x'
   type: vless
-  server: 32b55878.bilibiliapp.cn
+  server: b4800dd3.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: a61efb7d.m3u8.awdhha.pay.cfcndns.pp.ua
+  servername: f963907d.m3u8.awdhha.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6751,14 +6377,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 2da5a7a4.bilibiliapp.cn
+      address: 20d2a723.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: d10f5b40.acg.psdjca.tv.acccvawebsa.pp.ua
+        serverName: 194f358a.acg.psdjca.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6766,14 +6392,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.zz8xsfxNlXK6lnltRVvRwR62h-ABB71VJoek7AmeZiQ
 - name: '[Free Cloud·02号] 越南2-X | 0x'
   type: vless
-  server: 614d470c.bilibiliapp.cn
+  server: c3f002b4.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 93fa3424.m3u8.awdhhb.pay.cfcndns.pp.ua
+  servername: 5b2d4e4c.m3u8.awdhhb.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6824,14 +6450,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 84f00f78.bilibiliapp.cn
+      address: 40d29ffc.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 940c47f7.acg.psdjcb.tv.acccvawebsa.pp.ua
+        serverName: 8247a345.acg.psdjcb.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6839,14 +6465,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.M6uAb8p9AFxe76lq2dKr3NdZZylbEcHMPLeUKhdUuQE
 - name: '[Free Cloud·02号] 越南3-X | 0x'
   type: vless
-  server: 56137037.bilibiliapp.cn
+  server: 64dff386.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 61d542ee.m3u8.awdhhc.pay.cfcndns.pp.ua
+  servername: 41175d9f.m3u8.awdhhc.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6897,14 +6523,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 937eec8b.bilibiliapp.cn
+      address: d4c8382b.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 3c056b95.acg.psdjcc.tv.acccvawebsa.pp.ua
+        serverName: 7a6055e3.acg.psdjcc.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6912,14 +6538,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.Z7LruPiRagq4IXFzEjnU1BDzwGlRI4yKLhp4e8IqOAM
 - name: '[Free Cloud·02号] 马来西亚1-X | 0x'
   type: vless
-  server: d1bab027.bilibiliapp.cn
+  server: 067b1656.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 6a5e88f8.m3u8.mdasuna.pay.cfcndns.pp.ua
+  servername: 2bdc7489.m3u8.mdasuna.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -6970,14 +6596,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 90dddf52.bilibiliapp.cn
+      address: 90a0d7b9.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 0723f8da.acg.asfnjdc.tv.acccvawebsa.pp.ua
+        serverName: 1cf0dffe.acg.asfnjdc.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -6985,14 +6611,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.70wGY-R1URQ705JbXZ4h1r2V6rEQDjHh-dJBtUTZ3F0
 - name: '[Free Cloud·02号] 俄罗斯-高性能1-X | 0x'
   type: vless
-  server: ee97060f.bilibiliapp.cn
+  server: 09aacdb1.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: d9bdb5a4.m3u8.ahdsic.pay.cfcndns.pp.ua
+  servername: 54dadb70.m3u8.ahdsic.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -7043,14 +6669,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 48b849c7.bilibiliapp.cn
+      address: 79bb0bd9.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: e4ddeefd.acg.vsdgax.tv.acccvawebsa.pp.ua
+        serverName: 97ffef8d.acg.vsdgax.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -7058,14 +6684,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.pPj1JTit1hsoNfDvREker7rfS-6D9C_DD_ubkSDdqWY
 - name: '[Free Cloud·02号] 德国1纽伦堡-高性能1-X | 0x'
   type: vless
-  server: f9e5b2da.bilibiliapp.cn
+  server: ec473fa9.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: e205f986.m3u8.dxacgavas.pay.cfcndns.pp.ua
+  servername: 07a56d2f.m3u8.dxacgavas.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -7116,14 +6742,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: c4004791.bilibiliapp.cn
+      address: 453f8316.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 2b5dee80.acg.dasffgvba.tv.acccvawebsa.pp.ua
+        serverName: 7ede4bad.acg.dasffgvba.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -7131,14 +6757,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.X67lTngdNFx0VeDXw-BNtD9-csg-Aeyd9tJlKwtD1Rw
 - name: '[Free Cloud·02号] 德国2纽伦堡-高性能1-X | 0x'
   type: vless
-  server: fd1baf3d.bilibiliapp.cn
+  server: 1ac49eac.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 906888e6.m3u8.dfgilocfgoa.pay.cfcndns.pp.ua
+  servername: 720b969c.m3u8.dfgilocfgoa.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -7189,14 +6815,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: f35e5715.bilibiliapp.cn
+      address: c5c2413b.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 7a1aa98a.acg.fgoscacgs.tv.acccvawebsa.pp.ua
+        serverName: 243efb27.acg.fgoscacgs.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -7204,14 +6830,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.vOW-Gf8Ldj3D2_2pEnA5BUbhjZsq2v7aS58OfwlRWk8
 - name: '[Free Cloud·02号] 德国3纽伦堡-高性能1-X | 0x'
   type: vless
-  server: 9b42c127.bilibiliapp.cn
+  server: 915e5a3d.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: 2997f0b7.m3u8.cdvncacga.pay.cfcndns.pp.ua
+  servername: 2060fa84.m3u8.cdvncacga.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -7262,14 +6888,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: 0b536f7c.bilibiliapp.cn
+      address: f6b4ea39.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: 103b01c7.acg.cfdsijsklm.tv.acccvawebsa.pp.ua
+        serverName: a6bb7a1a.acg.cfdsijsklm.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -7277,14 +6903,14 @@ proxies:
   encryption: mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.13UWHaqYts7GNvoHKEyjNp-hyQwrZgguPhsNH4sd_gk
 - name: '[Free Cloud·02号] 德国4纽伦堡-高性能1-X | 0x'
   type: vless
-  server: adf6a894.bilibiliapp.cn
+  server: 62bc5487.bilibiliapp.cn
   port: 443
   uuid: e43a19cb-f309-4d52-9f9c-628475d058f4
   udp: true
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: fdc23a44.m3u8.fdcsacga.pay.cfcndns.pp.ua
+  servername: 27fcf426.m3u8.fdcsacga.pay.cfcndns.pp.ua
   flow: xtls-rprx-vision
   network: xhttp
   alpn:
@@ -7335,14 +6961,14 @@ proxies:
         h-max-request-times: 600-900
         h-max-reusable-secs: 1800-3000
         h-keep-alive-period: 0
-      address: ef8a5308.bilibiliapp.cn
+      address: 50e10595.bilibiliapp.cn
       port: 443
       network: xhttp
       security: tls
       alpn:
       - h2
       tlsSettings:
-        serverName: cc03e155.acg.fdajgmua.tv.acccvawebsa.pp.ua
+        serverName: 65a3a959.acg.fdajgmua.tv.acccvawebsa.pp.ua
         fingerprint: chrome
       xhttpSettings:
         path: /zones
@@ -9698,61 +9324,39 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   - '[Free Cloud·01号] 距离下次重置剩余：22 天'
   - '[Free Cloud·01号] 英国伦敦1-50G-X | 0x'
   - '[Free Cloud·01号] 美国西部洛杉矶1-高性能-X | 0x'
@@ -10023,61 +9627,39 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇺🇸【北美洲】美国02丨V6【1x】'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   - '[Free Cloud·01号] 距离下次重置剩余：22 天'
   - '[Free Cloud·01号] 英国伦敦1-50G-X | 0x'
   - '[Free Cloud·01号] 美国西部洛杉矶1-高性能-X | 0x'
@@ -10464,122 +10046,78 @@ proxy-groups:
   type: select
   proxies:
   - 🏝️ 布吉岛·自动优选
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
 - name: 🏝️ 布吉岛·自动优选
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
 - name: ☁️ Free Cloud 专区
   type: select
   proxies:
@@ -10907,16 +10445,12 @@ proxy-groups:
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本03丨Vless'
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本01丨V6【1x】'
   - '[⚡ 宝可梦·05号(60G)] 🇯🇵【亚洲】日本02丨V6【1x】'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本1-Ver.7'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本2-Ver.8'
   - '[🛡️ iKuuu保底·1号] 🇯🇵 免费-日本3-Ver.7'
@@ -10981,61 +10515,39 @@ proxy-groups:
 - name: 🇨🇦 加拿大专区
   type: select
   proxies:
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_61号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_62号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_63号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_64号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
-  - '[🏝️ 布吉岛_65号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_67号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_68号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰002｜0.09元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🤍英格兰003｜0.08元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大001｜0.07元/G｜XHTTP H3｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大002｜0.06元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💛加拿大003｜0.05元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西002-IPv6｜0.04元/G｜hy2｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 💚法兰西001-IPv6｜0.03元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X07｜0.02元/G｜Reality｜'
+  - '[🏝️ 布吉岛_69号 (100G·加拿大AI)] 🖤东京京X06｜0.01元/G｜Reality｜'
 - name: 🇺🇸 美国专区
   type: select
   proxies:
